@@ -36,4 +36,8 @@ The **goal** of this project is to build an interactive
    - 
    - 
    - 
-2. 
+  
+### Design Choices ###
+#### Fonts ####
+#### Colours ####
+#### Wireframes ####
