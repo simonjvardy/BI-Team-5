@@ -19,10 +19,12 @@ The **goal** of this project is to build an interactive
 
 ### User Stories ###
 
-- As a  **user**, I want to find 
-- As a **user**, I want to
-- As a **user**, I want to 
-- As a **user**, I want to be able to 
+
+#### New Customer Stories
+- As a **new user**, I want to see a menu for the coffee shop.
+- As a **new user**, I want to to know where the coffee shop is located on a map.
+- As a **new user**, I want to be able to get directions to the coffee shop from where I am located.
+- As a **new user**, I want to see a seating plan of the coffee shop.
   
 ### Site Owner Goals ###
 
