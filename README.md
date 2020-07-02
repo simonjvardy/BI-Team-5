@@ -10,8 +10,12 @@ The **goal** of this project is to build an interactive
 
 ### User Goals ###
 
-- **Find the information** 
-- **Find**
+- **Book** an available table in the coffee shop for a specific time.
+- **Order** a takeaway coffee for collection if a table isn't available for a specific time.
+    - Place a coffee order online for either option.
+- **Pay** for the coffee either online or in store.
+- **Save** personal details to make future bookings quicker.
+- **Give** feedback about order queries to the coffee shop.
 
 ### User Stories ###
 
