@@ -36,6 +36,13 @@ The **goal** of this project is to build an interactive
 - As a **user**, I can select an option to pay in advance using a payment page.
     - paypal, credit card etc. or pay in store options.
 - As a **user**, I can use the Contact Us page for any order problems.
+
+#### Repeat Customer Stories
+- As a **repeat customer**, I want to be able to store my contact details to make it easier to book again in the future.
+- As a **repeat customer**, I can be offered occassional discounts off my next purchases.
+    - voucher for 15% off your next order.
+    - sign up page for marketing emails / special offers.
+- As a **repeat customer**, I can bookmark the website in my web-browser.
   
 ### Site Owner Goals ###
 
