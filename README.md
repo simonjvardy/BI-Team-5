@@ -148,3 +148,26 @@ Copy the following code and input it into your terminal to clone Money Pot:
 ```git clone https://github.com/AlexNexton.BI-Team-5```
 
 ---
+
+## Credits ##
+
+### Audio (IF USED) ### 
+
+### Images ###
+
+You can find the images used for the site [here](/assets/images). We have sourced them through various websites, which are free to use:
+
+- []()
+- []()
+
+### Colour ###
+
+We have identified the colour palette on [W3](https://www.w3schools.com/)
+
+### Image editing ###
+
+- We have used snippet tool for capturing screengrabs which we have saved as images.
+- MS Paint 3D (DESCRIBE HERE IF USED)
+- A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
+
+---
