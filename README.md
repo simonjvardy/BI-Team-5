@@ -91,3 +91,22 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [Image editor](https://www.birme.net/)
 
 ---
+
+## Features ##
+
+### Features Implemented ###
+
+- Responsive design
+- User friendly display
+- Navbar with easy navigation
+- Functional booking form
+- Google maps API for location services
+- Social media links
+  
+### Future Features ###
+
+- 
+- 
+- 
+
+---
