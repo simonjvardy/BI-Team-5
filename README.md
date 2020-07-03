@@ -118,3 +118,33 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 ## Bugs ##
 
 ---
+
+## Deployment ##
+
+The website was developed using both *GitPod* and *Visual Studio Code* and using *Git* pushed to *GitHub*, which hosts the repository. I made the following steps to deploy the site using *GitHub Pages*:
+
+- Opened up **GitHub** in the browser.
+- Signed in with my **username** and **password**.
+- Selected my **repositories**.
+- Navigated to **AlexNexton/BI-Team-5**.
+- In the top navigation clicked **settings**.
+- Scrolled down to the **GitHub Pages** area.
+- Selected **Master Branch** from the **Source** dropdown menu.
+- Clicked to **confirm** my **selection**.
+- [BI-Team-5](https://alexnexton.github.io/BI-Team-5/) is now **live** on **GitHub Pages**.
+
+### Running Money Pot Locally ###
+
+Cloning Money Pot from GitHub:
+
+- Navigate to **AlexNexton/MoneyPot**.
+- Click the green **Clone or Download** button.
+- **Copy** the url in the dropdown box.
+- Using your favourite **IDE** open up your preferred terminal.
+- **Navigate** to your desired file location.
+
+Copy the following code and input it into your terminal to clone Money Pot:
+
+```git clone https://github.com/AlexNexton.BI-Team-5```
+
+---
