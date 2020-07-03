@@ -34,7 +34,6 @@ The **goal** of this project is to build an interactive
  As a **site owner**, I want to 
 - As a **site owner**, I also want to 
 
-
 ### User Requirements and Expectations ###
 
 1. The site should have:
@@ -46,6 +45,17 @@ The **goal** of this project is to build an interactive
    - 
   
 ### Design Choices ###
+
 #### Fonts ####
+
 #### Colours ####
-#### Wireframes ####
+We have chosen the colour that say *"coffee now please!"*, applealing to the eye and also compliments the design of the project.
+![Color palette](wireframes/Palette-6.png)
+- *Grullo* (AF9483) - Light soft brown
+- *Umber* (615550) - Dark bronw
+- *Albaster* (F0EDE5) - Off white
+
+These coulours will compliment each other well when used accross the site creating pleasant ambience.
+
+
+
