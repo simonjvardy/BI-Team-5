@@ -134,17 +134,17 @@ The website was developed using both *GitPod* and *Visual Studio Code* and using
 - Clicked to **confirm** my **selection**.
 - [BI-Team-5](https://alexnexton.github.io/BI-Team-5/) is now **live** on **GitHub Pages**.
 
-### Running Money Pot Locally ###
+### Running BI-Team-5 Locally ###
 
-Cloning Money Pot from GitHub:
+Cloning BI-Team-5 from GitHub:
 
-- Navigate to **AlexNexton/MoneyPot**.
+- Navigate to **AlexNexton/BI-Team-5**.
 - Click the green **Clone or Download** button.
 - **Copy** the url in the dropdown box.
 - Using your favourite **IDE** open up your preferred terminal.
 - **Navigate** to your desired file location.
 
-Copy the following code and input it into your terminal to clone Money Pot:
+Copy the following code and input it into your terminal to clone BI-Team-5:
 
 ```git clone https://github.com/AlexNexton.BI-Team-5```
 
