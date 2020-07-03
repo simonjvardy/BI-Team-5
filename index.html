@@ -18,7 +18,125 @@
     <title>Title</title>
   </head>
   <body>
-    <p>Hello world!</p>
+   <nav class="navbar navbar-dark bg-dark navbar-expand-sm container-fluid sticky-top"> <!--NavBar Section here-->
+        <a href="" class="navbar-brand">SomeCoffeePlace</a>
+            
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item mr-2"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item mr-2"><a href="#menu" class="nav-link">Menu</a></li>
+            <li class="nav-item mr-2"><a href="#booking" class="nav-link">Book</a></li>
+            <li class="nav-item mr-2"><a href="#contact" class="nav-link">Contack Us</a></li>
+            
+         </ul></div>
+			<div class="d-none d-md-block">
+				<p class="navbar-text my-auto mr-2"><i>Your local coffee shop - book a table today!</i></p>
+				<a href="/login" class="nav-link">Book here!</a>
+			</div>   
+    </nav>
+
+     <section class="welcome-section container-fluid"> <!--Welcome Section here-->
+        <div class="row jumbotron mt-3 text-center">
+            <div class="col-12">
+                <h1>Welcome to</h1>
+                <h2 class="mt-5">SomeCoffeePlace</h2>
+            </div>
+        </div>
+     </section>
+     <hr>
+			<section class="menu-section container-fluid text-center" id="menu"> <!--Menu Section here-->
+                <div class="row text-uppercase">
+                    <div class="col-12">
+                        <h2>Menu</h2>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-12">
+						<h3 class=" title-menu text-capitalize my-5 ">food</h3>
+					</div>
+					<div class="col-12 col-md-6 col-sm-6">
+						<div class="menu-list"></div>
+					</div>
+					<div class="col-12">
+						<h3 class=" title-menu text-capitalize my-5 ">drinks</h3>
+					</div>
+					<div class=" col-12 col-md-6 col-sm-6">
+						<div class="drink-list"></div>
+					</div>
+				</div>
+			</section>
+            <hr>
+            <section class="booking-section container-fluid text-center" id="booking"> <!--Order and Booking section here-->
+            <div class="row">
+					<div class="col-12">
+						<h2 class=" title-booking text-uppercase my-5">Book & Order</h2>
+                        <p>Book a table with us, or place <br> your order to go</p>
+                        <p>Would you like to:</p>
+					</div>
+					<div class="col-12 col-md-6 col-sm-6 text-center mt-5">
+						<div class="booking-table">
+                        <button class="btn btn-success">Book a table</button>
+                        </div>
+					</div>
+					<div class=" col-12 col-md-6 col-sm-6 text-center mt-5">
+						<div class="order-to-go">
+                        <button class="btn btn-success">Order to go!</button></div>
+					</div>
+				</div>
+            </section>
+            <hr>
+            <section class="contact-section container-fluid" id="contact"> <!--Contact Section here-->
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-uppercase text-center">Contact us</h2>
+                    </div> </div>
+                    <div class="row">
+                    <div class="col-12">
+                    <div id="map"></div></div></div> <!--this is the id for the google maps api-->
+                    <div class="row">
+                    <div class="col-12 text-center">
+                        <p>Address: Somewhere cool</p>
+                        <br>
+                        <p>Phone: +555 149 9867</p>
+                        <br>
+                        <p>Email: Somecoffeeplace@gmail.com</p>
+                        <br>
+                        <p>Please also reach out to us on our <br> social media channels.</p>
+                    </div></div>
+             </section>
+            <hr>
+            <footer class="container-fluid text-center"> <!--Footer Section here-->
+                <div class="row">
+                     <div class="col-sm-12">
+                <h5 class="uppercase gensub">Social</h5>
+                    <ul class="list-inline social-links">
+                        
+						<li class="list-inline-item">
+							<a href="" target="_blank">
+								<i class="fab fa-facebook-square" aria-hidden="true"></i>
+								<span class="sr-only">Facebook.</span>
+							</a>
+                        </li>
+                        <li class="list-inline-item">
+							<a href="" target="_blank">
+								<i class="fab fa-twitter-square" aria-hidden="true"></i>
+								<span class="sr-only">Twitter.</span>
+							</a>
+                        </li>
+                        <li class="list-inline-item">
+							<a href="" target="_blank">
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram.</span>
+							</a>
+                        </li>
+                    </ul>
+            </div>
+                </div>
+            </footer>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
