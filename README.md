@@ -10,9 +10,9 @@ The **goal** of this project is to build a ***.
 
 ### User Goals ###
 
-- **Book** an available table in the coffee shop for a specific time.
-- **Order** a takeaway coffee for collection if a table isn't available for a specific time.
-  - Place a coffee order online for either option.
+- **Book** a table in the coffee shop for a specific time.
+- **Order** a coffee **online** when booking a table.
+- **Order** a coffee **online** for collection.
 - **Link** to the coffee shop social media sites.
 
 ### User Stories ###
