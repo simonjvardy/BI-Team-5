@@ -1,3 +1,26 @@
+
+
+body{
+     background-image: linear-gradient(#af9483,#f0ede5 );
+}
+
+
+/*------To stop the overflow 8 */
 .container-fluid{
-    padding: 0;
-     overflow: hidden;}
+    padding: 15px;
+     overflow: hidden;
+     }
+
+
+ /*--------------------------Navbar */
+
+.bg-color-navbar {
+         background-color:#615550;
+        }
+.nav-text-color{
+        color: #fafafa;
+     }
+.navbar-toggler{
+         color: #000;
+        
+     }
