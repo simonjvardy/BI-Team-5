@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap");
 
-body{
-
-    font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(#af9483,#f0ede5 );
+/*-----SPECIAL STYLING-----*/
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: linear-gradient(#af9483, #f0ede5);
 }
 
-
-/*------To stop the overflow 8 */
-.container-fluid{
-    padding: 15px;
-     overflow: hidden;
-     }
-
-
- /*--------------------------Navbar */
-
+/*------To stop the overflow 8*/
+.container-fluid {
+  padding: 15px;
+  overflow: hidden;
+}
+/*-----HEADER STYLING------*/
+/*-----NavBar-------------*/
 .bg-color-navbar {
-         background-color:#615550;
-        }
-.nav-text-color{
-        color: #fafafa;
-     }
-.navbar-toggler{
-         color: #000;
-        
-     }
+  background-color: #615550;
+}
+.nav-text-color {
+  color: #fafafa;
+}
+.navbar-toggler {
+  color: #000;
+}
+/*----MAIN BODY STYLING--*/
+/*----FOOTER STYLING---*/
