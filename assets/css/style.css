@@ -1,7 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
 
 body{
-     background-image: linear-gradient(#af9483,#f0ede5 );
+
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(#af9483,#f0ede5 );
 }
 
 
