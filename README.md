@@ -26,7 +26,7 @@ The **goal** of this project is to build a ***.
 - As a **user**, I can **enter** my contact **details** to **secure my booking**.
   - The required fields should be a *name*, an *email address* and *coffee order* for the booking confirmation.
 - As a **user**, I can place an order for my coffee in advance of my visit.
-- As a **user**, I can get a **notification to check** my order and **make the changes** if necesary **before** sending it to the coffee shop.
+- As a **user**, I can get a **notification to check** my order and **make the changes** if necessary **before** sending it to the coffee shop.
 - As a **user**, I can **contact** the shop for any order problems using their **social media** channels, **call** them or **email**.
 
 ### Site Owner Goals ###
