@@ -5,12 +5,15 @@ body {
   font-family: "Josefin Sans", sans-serif;
   background-image: linear-gradient(#af9483, #f0ede5);
 }
-
+p {
+  font-family: "Raleway", sans-serif;
+}
 /*------To stop the overflow 8*/
 .container-fluid {
   padding: 15px;
   overflow: hidden;
 }
+
 /*-----HEADER STYLING------*/
 /*-----NavBar-------------*/
 .bg-color-navbar {
@@ -22,5 +25,7 @@ body {
 .navbar-toggler {
   color: #000;
 }
+
 /*----MAIN BODY STYLING--*/
+
 /*----FOOTER STYLING---*/
