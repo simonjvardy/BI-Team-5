@@ -8,7 +8,7 @@ body {
 p {
   font-family: "Raleway", sans-serif;
 }
-/*------To stop the overflow 8*/
+/*------To stop the overflow */
 .container-fluid {
   padding: 15px;
   overflow: hidden;
@@ -27,5 +27,14 @@ p {
 }
 
 /*----MAIN BODY STYLING--*/
-
+/*----Booking section----*/
+.book-button {
+  background-color: #615550;
+  color: #fafafa;
+  transition: all 0.3s;
+}
+.book-button:hover {
+  color: #fafafa;
+  transform: scale(1.2);
+}
 /*----FOOTER STYLING---*/
