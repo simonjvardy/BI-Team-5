@@ -106,9 +106,13 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
   
 ### Future Features ###
 
-- 
-- 
-- 
+- User accounts to store personal details securely.
+    - GDPR: Privacy and cookie policy statements.
+    - Sign up for marketing emails and special offers.
+- Include a shopping cart facility.
+    - Use discount voucher codes in the shopping cart.
+- Bookmark the site quickly and easily to encourage repeat visitors.
+
 
 ---
 
