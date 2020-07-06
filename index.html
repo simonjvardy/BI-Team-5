@@ -1,144 +1,579 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<meta name="Description" content="Enter your description here" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
-	<link rel="stylesheet" href="assets/css/style.css" />	
-	<title>Title</title>
-</head>
 
-<body>
-    <!--NavBar Section here-->
-    <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top">
-        <a href="#" class="navbar-brand nav-text-color"><h4>SomeCoffeePlace</h4></a>
-        <button class="navbar-toggler nav-text-color ml-auto navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-        </button>
-        <div class="collapse navbar-collapse nav-text-color" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mr-2"><a href="#" class="nav-link nav-text-color hvr-sweep-to-top">Home</a></li>
-                <li class="nav-item mr-2"><a href="#menu" class="nav-link nav-text-color hvr-sweep-to-top">Menu</a></li>
-                <li class="nav-item mr-2"><a href="#booking" class="nav-link nav-text-color hvr-sweep-to-top">Book</a></li>
-                <li class="nav-item mr-2"><a href="#contact" class="nav-link nav-text-color hvr-sweep-to-top">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block" id="hiddenMenuItem">
-            <p class="navbar-text my-auto mr-2"><i>Your local coffee shop - book a table today!</i></p>
-            <a href="/login" class="nav-link badge badge-success">Book here!</a>
-        </div>
+    <title>Coffee Shop</title>
+  </head>
+  <body>
+    <nav
+      class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top"
+    >
+      <!--NavBar Section here-->
+      <a href="" class="navbar-brand nav-text-color">SomeCoffeePlace</a>
+
+      <button
+        class="navbar-toggler nav-text-color ml-auto navbar-dark"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse nav-text-color"
+        id="navbarNavDropdown"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mr-2">
+            <a href="#" class="nav-link nav-text-color hvr-sweep-to-top">Home</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a href="#menu" class="nav-link nav-text-color hvr-sweep-to-top">Menu</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a href="#booking" class="nav-link nav-text-color hvr-sweep-to-top">Book</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a href="#contact" class="nav-link nav-text-color hvr-sweep-to-top">Contack Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-none d-md-block">
+        <p class="navbar-text my-auto mr-2">
+          <i>Your local coffee shop - book a table today!</i>
+        </p>
+        <a href="/login" class="nav-link">Book here!</a>
+      </div>
     </nav>
-    <!--Welcome Section here-->
     <section class="welcome-section container-fluid">
-        <div class="row  mt-5 text-center">
-            <div class="col-12">
-                <h1>Welcome to</h1>
-                <h2 class="mt-5">SomeCoffeePlace</h2>
-            </div>
+      <!--Welcome Section here-->
+      <div class="row mt-5 text-center">
+        <div class="col-12">
+          <h1>Welcome to</h1>
+          <h2 class="mt-5">SomeCoffeePlace</h2>
         </div>
+      </div>
     </section>
-    <hr>
-    <!--Menu Section here-->
+    <hr />
     <section class="menu-section container-fluid text-center" id="menu">
-        <div class="row text-uppercase">
-            <div class="col-12">
-                <h2>Menu</h2>
-            </div>
+      <!--Menu Section here-->
+      <div class="row text-uppercase">
+        <div class="col-12">
+          <h2>Menu</h2>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <h3 class=" title-menu text-capitalize my-5 ">food</h3>
-            </div>
-            <div class="col-12 col-md-6 col-sm-6">
-                <div class="menu-list"></div>
-            </div>
-            <div class="col-12">
-                <h3 class=" title-menu text-capitalize my-5 ">drinks</h3>
-            </div>
-            <div class=" col-12 col-md-6 col-sm-6">
-                <div class="drink-list"></div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h3 class="title-menu text-capitalize my-5">food</h3>
         </div>
+        <div class="col-12 col-md-6 col-sm-6">
+          <div class="menu-list"></div>
+        </div>
+        <div class="col-12">
+          <h3 class="title-menu text-capitalize my-5">drinks</h3>
+        </div>
+        <div class="col-12 col-md-6 col-sm-6">
+          <div class="drink-list"></div>
+        </div>
+      </div>
     </section>
-    <hr>
+    <hr />
     <!--Order and Booking section here-->
     <section class="booking-section container-fluid text-center" id="booking">
-        <div class="row">
-            <div class="col-12">
-                <h2 class=" title-booking text-uppercase my-5">Book & Order</h2>
-                <p>Book a table with us, or place <br> your order to go</p>
-                <p>Would you like to:</p>
-            </div>
-            <div class="col-12 col-md-6 col-sm-6 text-center mt-5">
-                <div class="booking-table">
-                    <button class="btn btn-success">Book a table</button>
-                </div>
-            </div>
-            <div class=" col-12 col-md-6 col-sm-6 text-center mt-5">
-                <div class="order-to-go">
-                    <button class="btn btn-success">Order to go!</button>
-                </div>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h2 class="text-uppercase my-5">book & order</h2>
+          <p>
+            Book a table with us, or place <br />
+            your order to go
+          </p>
         </div>
+
+        <div class="col-12 col-sm-3 text-center mt-3">
+          <div class="bookTable">
+            <button
+              type="button"
+              class="btn book-button"
+              data-toggle="modal"
+              data-target="#bookTable"
+            >
+              <a
+                ><i
+                  class="fas fa-coffee button"
+                  aria-hidden="true"
+                  title="book a table"
+                ></i
+                ><span class="sr-only">Cup</span></a
+              >
+              Book a table
+            </button>
+            <!-- 1. Booking table form: Modal box-->
+            <div
+              class="modal fade"
+              id="bookTable"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="bookTableFormHeader"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content" id="bookTableBox">
+                  <!-- 1.1 Booking table form: Header-->
+                  <div class="modal-header">
+                    <div
+                      class="modal-title col-12 text-center"
+                      id="bookTableFormHeader"
+                    >
+                      <button
+                        type="button"
+                        class="close p-1"
+                        data-dismiss="modal"
+                        aria-label="close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- 1.2 Booking form: Main body -->
+                  <form class="container pt-3" id="tableBookingForm">
+                    <div class="row justify-content-center">
+                      <div class="col-12 col-sm-6">
+                        <!-- 1.1.1 name input-->
+                        <div class="form-group mb-0">
+                          <label for="name"></label>
+                          <input
+                            type="text"
+                            class="form-control text-center"
+                            id="name"
+                            placeholder="Name"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.2 email address input----->
+                        <div class="form-group mb-0">
+                          <label for="email"></label>
+                          <input
+                            type="email"
+                            class="form-control text-center"
+                            id="email"
+                            placeholder="Email address"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.3 phone number input----->
+                        <div class="form-group mb-0">
+                          <label for="phone"></label>
+                          <input
+                            type="phone number"
+                            class="form-control text-center"
+                            id="phone"
+                            placeholder="Phone Number"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.3 number of guests input----->
+                        <div class="form-group mb-0">
+                          <div class="px-0">
+                            <label for="guests"></label>
+                            <select
+                              class="form-control"
+                              id="guests"
+                              required=""
+                            >
+                              <option selected="">No. of guests</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                          </div>
+                        </div>
+                        <!-- 1.1.4 Choose date------->
+                        <div class="form-group mb-0">
+                          <div class="px-0">
+                            <label for="date"></label>
+                            <select class="form-control" id="date" required="">
+                              <option selected="">Date</option>
+                              <option>Monday</option>
+                              <option>Tuesday</option>
+                              <option>Wednesday</option>
+                              <option>Thursday</option>
+                              <option>Friday</option>
+                              <option>Saturday</option>
+                              <option>Sunday</option>
+                            </select>
+                          </div>
+                        </div>
+                        <!-- 1.1.5 Choose time------->
+                        <div class="form-group mb-0">
+                          <div class="px-0">
+                            <label for="tableBookingTime"></label>
+                            <select
+                              class="form-control"
+                              id="tableBookingTime"
+                              required=""
+                            >
+                              <option selected="">Time</option>
+                              <option>9:00</option>
+                              <option>9:15</option>
+                              <option>9:30</option>
+                              <option>9:45</option>
+                              <option>10:00</option>
+                              <option>10:15</option>
+                              <option>10:30</option>
+                              <option>10:45</option>
+                              <option>11:00</option>
+                              <option>11:15</option>
+                              <option>11:30</option>
+                              <option>11:45</option>
+                              <option>12:00</option>
+                              <option>12:15</option>
+                              <option>12:30</option>
+                              <option>12:45</option>
+                              <option>13:00</option>
+                              <option>13:15</option>
+                              <option>13:30</option>
+                              <option>13:45</option>
+                              <option>14:00</option>
+                              <option>14:15</option>
+                              <option>14:30</option>
+                              <option>14:45</option>
+                              <option>15:00</option>
+                              <option>15:15</option>
+                              <option>15:30</option>
+                              <option>15:45</option>
+                              <option>16:00</option>
+                              <option>16:15</option>
+                              <option>16:30</option>
+                              <option>16:45</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 1.1.6 legal/consent information-->
+                        <div class="from-group mt-3">
+                          <div class="form-legal-info">
+                            <small class="form-text">
+                              We'll never share your personal details with
+                              anyone else.</small
+                            >
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="gridCheck"
+                                required=""
+                              />
+                              <label class="form-check-label" for="gridCheck">
+                                <small class="form-text">
+                                  I consent to CoffeeShop collecting my details
+                                  through this form.</small
+                                >
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 1.3 Booking form: Book button -->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="submit"
+                        class="btn book-button"
+                        data-toggle="modal"
+                        data-target="#confirm-booking"
+                      >
+                        <i
+                          class="fas fa-check"
+                          type="button"
+                          aria-hidden="true"
+                          title="tick!"
+                        ></i
+                        ><span class="sr-only"> Check </span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- Booking table form: End-->
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-3 text-center my-3">
+          <div class="orderToGo">
+            <button
+              type="button"
+              class="btn book-button"
+              data-toggle="modal"
+              data-target="#orderToGo"
+            >
+              <a
+                ><i
+                  class="fas fa-paper-plane button"
+                  aria-hidden="true"
+                  title="book a table"
+                ></i
+                ><span class="sr-only">Paper Plane</span></a
+              >
+              Order to go
+            </button>
+            <!-- 1. Order to Go form: Modal box-->
+            <div
+              class="modal fade"
+              id="orderToGo"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="orderToGoHeader"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content" id="orderToGoBox">
+                  <!-- 1.1 Order to Go form: Header-->
+                  <div class="modal-header">
+                    <div
+                      class="modal-title col-12 text-center"
+                      id="orderToGoFormHeader"
+                    >
+                      <button
+                        type="button"
+                        class="close p-1"
+                        data-dismiss="modal"
+                        aria-label="close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- 1.2 Order to Go form: Main body -->
+                  <form class="container pt-3" id="orderToGoForm">
+                    <div class="row justify-content-center">
+                      <div class="col-12 col-sm-6">
+                        <!-- 1.1.1 name input-->
+                        <div class="form-group mb-0">
+                          <label for="name2"></label>
+                          <input
+                            type="text"
+                            class="form-control text-center"
+                            id="name2"
+                            placeholder="Name"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.2 email address input----->
+                        <div class="form-group mb-0">
+                          <label for="email2"></label>
+                          <input
+                            type="email2"
+                            class="form-control text-center"
+                            id="email2"
+                            placeholder="Email address"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.3 phone number input----->
+                        <div class="form-group mb-0">
+                          <label for="phone2"></label>
+                          <input
+                            type="phone number"
+                            class="form-control text-center"
+                            id="phone2"
+                            placeholder="Phone Number"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.3 Drinks order input----->
+                        <div class="form-group mb-0">
+                          <div class="px-0">
+                            <label for="drinksOrder"></label>
+                            <select
+                              class="form-control"
+                              id="drinksOrder"
+                              required=""
+                            >
+                              <option selected="">Drinks Order</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 1.1.5 Choose collection time------->
+                        <div class="form-group mb-0">
+                          <div class="px-0">
+                            <label for="collectionTime"></label>
+                            <select
+                              class="form-control"
+                              id="collectionTime"
+                              required=""
+                            >
+                              <option selected="">Collection time</option>
+                              <option>9:00</option>
+                              <option>9:15</option>
+                              <option>9:30</option>
+                              <option>9:45</option>
+                              <option>10:00</option>
+                              <option>10:15</option>
+                              <option>10:30</option>
+                              <option>10:45</option>
+                              <option>11:00</option>
+                              <option>11:15</option>
+                              <option>11:30</option>
+                              <option>11:45</option>
+                              <option>12:00</option>
+                              <option>12:15</option>
+                              <option>12:30</option>
+                              <option>12:45</option>
+                              <option>13:00</option>
+                              <option>13:15</option>
+                              <option>13:30</option>
+                              <option>13:45</option>
+                              <option>14:00</option>
+                              <option>14:15</option>
+                              <option>14:30</option>
+                              <option>14:45</option>
+                              <option>15:00</option>
+                              <option>15:15</option>
+                              <option>15:30</option>
+                              <option>15:45</option>
+                              <option>16:00</option>
+                              <option>16:15</option>
+                              <option>16:30</option>
+                              <option>16:45</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 1.1.6 legal/consent information-->
+                        <div class="from-group mt-3">
+                          <div class="form-legal-info">
+                            <small class="form-text">
+                              We'll never share your personal details with
+                              anyone else.</small
+                            >
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="gridCheck"
+                                required=""
+                                />
+                              <label class="form-check-label" for="gridCheck">
+                                <small class="form-text">
+                                  I consent to CoffeeShop collecting my details
+                                  through this form.</small
+                                >
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 1.3 Order to Go form: Book button -->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="submit"
+                        class="btn book-button"
+                        data-toggle="modal"
+                        data-target="#confirm-booking"
+                      >
+                        <i
+                          class="fas fa-check"
+                          type="button"
+                          aria-hidden="true"
+                          title="tick!"
+                        ></i
+                        ><span class="sr-only"> Check </span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- ORder to go form: End-->
+          </div>
+        </div>
+      </div>
     </section>
-    <hr>
+    <hr />
     <!--Contact Section here-->
     <section class="contact-section container-fluid" id="contact">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="text-uppercase text-center">Contact us</h2>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center">Contact us</h2>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div id="map"></div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="map"></div>  <!--this is the id for the google maps api-->
         </div>
-        <!--this is the id for the google maps api-->
-        <div class="row">
-            <div class="col-12 text-center">
-                <p>Address: Somewhere cool</p>
-                <br>
-                <p>Phone: +555 149 9867</p>
-                <br>
-                <p>Email: Somecoffeeplace@gmail.com</p>
-                <br>
-                <p>Please also reach out to us on our <br> social media channels.</p>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p>Address: Somewhere cool</p>
+          <br />
+          <p>Phone: +555 149 9867</p>
+          <br />
+          <p>Email: Somecoffeeplace@gmail.com</p>
+          <br />
+          <p>
+            Please also reach out to us on our <br />
+            social media channels.
+          </p>
         </div>
+      </div>
     </section>
-    <hr>
-    <!--Footer Section here-->
+    <hr />
     <footer class="container-fluid text-center">
-        <div class="row">
-            <div class="col-sm-12">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a href="" target="_blank">
-                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook.</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="" target="_blank">
-                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter.</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="" target="_blank">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram.</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+      <!--Footer Section here-->
+      <div class="row">
+        <div class="col-sm-12">
+          <h5 class="uppercase gensub">Social</h5>
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a href="" target="_blank">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                <span class="sr-only">Facebook.</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" target="_blank">
+                <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                <span class="sr-only">Twitter.</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram.</span>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+
+
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
