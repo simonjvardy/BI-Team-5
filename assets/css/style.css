@@ -1,51 +1,58 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
 
-body{
 
-    font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(#af9483,#f0ede5 );
+/*-----SPECIAL STYLING-----*/
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: linear-gradient(#af9483, #f0ede5);
+}
+p {
+  font-family: "Raleway", sans-serif;
+}
+/*------To stop the overflow */
+.container-fluid {
+  padding: 15px;
+  overflow: hidden;
 }
 
-/*------hover effects */
 
-.hvr-sweep-to-top::before{
-    background: #af9483;
+/*----MAIN BODY STYLING--*/
+/*----Booking section----*/
+.book-button {
+  background-color: #615550;
+  color: #fafafa;
+  transition: all 0.3s;
+}
+.book-button:hover {
+  color: #fafafa;
+  transform: scale(1.2);
+}
+.form-legal-info {
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+#bookTableBox,
+#orderToGoBox {
+  color: #000;
+  background-color: #f0ede5;
+  font-family: "Raleway", sans-serif;
+}
+/* #bookTableBox h5 {
+  font-family: "Noto", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: normal;
+} */
+#orderToGoBox .modal-header,
+#orderToGoBox .modal-footer,
+#bookTableBox .modal-header,
+#bookTableBox .modal-footer {
+  border: none;
 }
 
 
-
-
-/*------To stop the overflow 8 */
-.container-fluid{
-    padding: 15px;
-     overflow: hidden;
-     }
-
-
- /*--------------------------Navbar */
-
-.bg-color-navbar {
-         background-color:#615550;
-        }
-.nav-text-color{
-        color: #fafafa;
-     }
-.navbar-toggler{
-         color: #000;       
-     }
-
-.navbar-brand:hover{
-    color: #fafafa;
-}
-
-.navbar-nav li:hover {
-    font-size: 20px;
-}
-
-#hiddenMenuItem p{
-    color: #fafafa;
-}
 
 /*--------------------------Footer */
 
@@ -75,3 +82,4 @@ footer h4{
 .social-links li a i:hover{
     background-color: #fafafa;
 }
+
