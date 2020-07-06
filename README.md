@@ -160,10 +160,11 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 
 ### Images ###
 
-You can find the images used for the site [here](/assets/images). We have sourced them through various websites, which are free to use:
+You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
 
-- []()
-- []()
+- cropped-coffee-cup.jpg originally sourced from the [Pikrepo website](https://www.pikrepo.com/frvwp/coffee-art-in-white-cup)
+- cropped-tea-cup.jpg originally sourced from the [Pikrepo website](https://www.pikrepo.com/fryfx/beige-glass-tea-cup-and-saucer-on-top-of-brown-wooden-surface)
+- cropped-iced-drinks.jpg by Jonas Jacobsson originally sourced from the [Unsplash website](https://unsplash.com/photos/ujenujDrMjc)
 
 ### Colour ###
 
@@ -175,4 +176,12 @@ We have identified the colour palette on [W3](https://www.w3schools.com/)
 - MS Paint 3D (DESCRIBE HERE IF USED)
 - A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
 
+### Acknowledgements ###
+
+- [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
+- [Bootstrap Carousel with Controls](https://getbootstrap.com/docs/4.5/components/carousel/) code.
+- [Bootstrap Borderless Table](https://getbootstrap.com/docs/4.5/content/tables/) code.
+- [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for help with removing the carousel auto-slide in Bootstrap.
+- [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
+- [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
 ---
