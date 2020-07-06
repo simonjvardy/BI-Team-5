@@ -33,6 +33,14 @@ body{
          color: #000;       
      }
 
+.navbar-brand:hover{
+    color: #fafafa;
+}
+
+.navbar-nav li:hover {
+    font-size: 20px;
+}
+
 #hiddenMenuItem p{
     color: #fafafa;
 }
@@ -63,6 +71,5 @@ footer h4{
 }
 
 .social-links li a i:hover{
-    background-color: #615550;
-    color: #fafafa;
+    background-color: #fafafa;
 }
