@@ -30,6 +30,21 @@ p {
   color: #000;
 }
 
+.navbar-brand:hover{
+    color: #fafafa;
+}
+
+.book-button-nav {
+  background-color: #AE9E97;
+  color: #fafafa;
+  transition: all 0.3s;
+}
+.book-button-nav:hover {
+  background-color: rgba(174, 158, 151, 0.63);  
+  color: #fafafa;
+  transform: scale(1.2);
+}
+
 /*------hover effects */
 
 .hvr-sweep-to-top::before {
