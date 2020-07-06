@@ -51,6 +51,10 @@ p {
 }
 /*----MAIN BODY STYLING--*/
 /**----Menu section--*/
+.jr {
+  font-family: "Caveat", cursive;
+  font-size: 4rem;
+}
 .carousel-control-next-icon {
   position: absolute;
   top: 2vh;
