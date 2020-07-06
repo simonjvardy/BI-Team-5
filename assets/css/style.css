@@ -36,6 +36,27 @@ p {
 
 
 /*----MAIN BODY STYLING--*/
+/*----Menu section--*/
+.carousel-control-next-icon {
+    position: absolute;
+    top: 2vh;
+    right: 0;
+    background-color: black;
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    background-color: black;
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+}
+
 /*----Booking section----*/
 .book-button {
   background-color: #615550;
