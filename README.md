@@ -109,12 +109,11 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 ### Future Features ###
 
 - User accounts to store personal details securely.
-    - GDPR: Privacy and cookie policy statements.
-    - Sign up for marketing emails and special offers.
+  - GDPR: Privacy and cookie policy statements.
+  - Sign up for marketing emails and special offers.
 - Include a shopping cart facility.
-    - Use discount voucher codes in the shopping cart.
+  - Use discount voucher codes in the shopping cart.
 - Bookmark the site quickly and easily to encourage repeat visitors.
-
 
 ---
 
@@ -160,15 +159,12 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 
 ## Credits ##
 
-### Audio (IF USED) ### 
-
 ### Images ###
 
 You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
 
-- cropped-coffee-cup.jpg originally sourced from the [Pikrepo website](https://www.pikrepo.com/frvwp/coffee-art-in-white-cup)
-- cropped-tea-cup.jpg originally sourced from the [Pikrepo website](https://www.pikrepo.com/fryfx/beige-glass-tea-cup-and-saucer-on-top-of-brown-wooden-surface)
-- cropped-iced-drinks.jpg by Jonas Jacobsson originally sourced from the [Unsplash website](https://unsplash.com/photos/ujenujDrMjc)
+- [Pikrepo](https://www.pikrepo.com/)
+- [Unsplash](https://unsplash.com/)
 
 ### Colour ###
 
