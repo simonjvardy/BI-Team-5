@@ -50,6 +50,7 @@ The **goal** of this project is to build a ***.
 
 #### Fonts ####
 
+We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.
 
 #### Colours ####
 
