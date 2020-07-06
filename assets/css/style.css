@@ -17,6 +17,23 @@ p {
   overflow: hidden;
 }
 
+/*-----NavBar-------------*/
+.bg-color-navbar {
+  background-color: #615550;
+}
+.nav-text-color {
+  color: #fafafa;
+}
+.navbar-toggler {
+  color: #000;
+}
+
+/*------hover effects */
+
+.hvr-sweep-to-top::before{
+    background: #af9483;
+}
+
 
 /*----MAIN BODY STYLING--*/
 /*----Booking section----*/
