@@ -152,31 +152,34 @@
                     </div>
                   </div>
                   <!-- 1.2 Booking form: Main body -->
-                  <form class="container pt-3" id="bookingForm">
+                  <form class="container pt-3" id="tableBookingForm">
                     <div class="row justify-content-center">
                       <div class="col-12 col-sm-6">
                         <!-- 1.1.1 name input-->
-                        <div class="form-group">
+                        <div class="form-group mb-0">
+                          <label for="name"></label>
                           <input
                             type="text"
                             class="form-control text-center"
                             id="name"
-                            placeholder="Your Name"
+                            placeholder="Name"
                             required=""
                           />
                         </div>
                         <!-- 1.1.2 email address input----->
-                        <div class="form-group">
+                        <div class="form-group mb-0">
+                          <label for="email"></label>
                           <input
                             type="email"
                             class="form-control text-center"
                             id="email"
-                            placeholder="Your email address"
+                            placeholder="Email address"
                             required=""
                           />
                         </div>
                         <!-- 1.1.3 phone number input----->
-                        <div class="form-group">
+                        <div class="form-group mb-0">
+                          <label for="phone"></label>
                           <input
                             type="phone number"
                             class="form-control text-center"
@@ -186,9 +189,14 @@
                           />
                         </div>
                         <!-- 1.1.3 number of guests input----->
-                        <div class="form-group">
+                        <div class="form-group mb-0">
                           <div class="px-0">
-                            <select class="form-control" id="guests">
+                            <label for="guests"></label>
+                            <select
+                              class="form-control"
+                              id="guests"
+                              required=""
+                            >
                               <option selected="">No. of guests</option>
                               <option>1</option>
                               <option>2</option>
@@ -198,9 +206,10 @@
                           </div>
                         </div>
                         <!-- 1.1.4 Choose date------->
-                        <div class="form-group">
+                        <div class="form-group mb-0">
                           <div class="px-0">
-                            <select class="form-control" id="date">
+                            <label for="date"></label>
+                            <select class="form-control" id="date" required="">
                               <option selected="">Date</option>
                               <option>Monday</option>
                               <option>Tuesday</option>
@@ -213,9 +222,14 @@
                           </div>
                         </div>
                         <!-- 1.1.5 Choose time------->
-                        <div class="form-group text-center">
+                        <div class="form-group mb-0">
                           <div class="px-0">
-                            <select class="form-control" id="bookingTime">
+                            <label for="tableBookingTime"></label>
+                            <select
+                              class="form-control"
+                              id="tableBookingTime"
+                              required=""
+                            >
                               <option selected="">Time</option>
                               <option>9:00</option>
                               <option>9:15</option>
@@ -278,73 +292,24 @@
                         </div>
                       </div>
                     </div>
-                  </form>
-                  <!-- 1.3 Booking form: Book button -->
-                  <div class="modal-footer justify-content-center">
-                    <button
-                      type="button"
-                      class="btn"
-                      data-toggle="modal"
-                      data-target="#confirm-booking"
-                    >
-                      <i
-                        class="far fa-check-circle"
-                        type="button"
-                        aria-hidden="true"
-                        title="tick!"
-                      ></i
-                      ><span class="sr-only"> Check Circle </span>
-                    </button>
-                    <!-- 2. Confirm Booking-->
-                    <div
-                      class="modal fade"
-                      id="confirm-booking"
-                      tabindex="-1"
-                      role="dialog"
-                      aria-labelledby="confirmBookingHeader"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog modal-md">
-                        <div class="modal-content confirm-booking-box">
-                          <!-- 2.1 Confirm Booking: Header-->
-                          <div class="modal-header">
-                            <div
-                              class="modal-title col-12 text-center"
-                              id="confirmBookingHeader"
-                            >
-                              <h5>
-                                Thank you!
-                              </h5>
-                            </div>
-                          </div>
-                          <!-- 2.2 Confirm Booking: Main body -->
-                          <div class="container pt-3">
-                            <div class="row">
-                              <div class="col text-center">
-                                <p>You have now placed your order.</p>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- 2.3 Confirm Booking: Exit button -->
-                          <div class="modal-footer justify-content-center">
-                            <button
-                              type="button"
-                              class="btn"
-                              data-dismiss="modal"
-                            >
-                              <i
-                                class="fas fa-times-circle"
-                                type="button"
-                                aria-hidden="true"
-                                title="Exit!"
-                              ></i
-                              ><span class="sr-only"> Cross </span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
+                    <!-- 1.3 Booking form: Book button -->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="submit"
+                        class="btn book-button"
+                        data-toggle="modal"
+                        data-target="#confirm-booking"
+                      >
+                        <i
+                          class="fas fa-check"
+                          type="button"
+                          aria-hidden="true"
+                          title="tick!"
+                        ></i
+                        ><span class="sr-only"> Check </span>
+                      </button>
                     </div>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>
