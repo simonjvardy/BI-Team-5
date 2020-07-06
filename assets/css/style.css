@@ -37,4 +37,24 @@ p {
   color: #fafafa;
   transform: scale(1.2);
 }
+.form-legal-info {
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+#bookTableBox {
+  color: #000;
+  background-color: #f0ede5;
+  font-family: "Raleway", sans-serif;
+}
+/* #bookTableBox h5 {
+  font-family: "Noto", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: normal;
+} */
+
+#bookTableBox .modal-header,
+#bookTableBox .modal-footer {
+  border: none;
+}
 /*----FOOTER STYLING---*/
