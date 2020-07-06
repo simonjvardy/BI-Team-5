@@ -50,6 +50,7 @@ The **goal** of this project is to build a ***.
 
 #### Fonts ####
 
+
 #### Colours ####
 
 We have chosen the colour that say *"coffee now please!"*, applealing to the eye and also compliments the design of the project.
@@ -117,6 +118,8 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 ---
 
 ## Testing ##
+
+Testing information can be found in a separate [testing.md](testing.md) file.
 
 ---
 
