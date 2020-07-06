@@ -20,6 +20,22 @@ p {
 }
 
 /*-----NavBar-------------*/
+.cafejavalogo{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+.cafejavalogo:hover{
+     
+  color: #fafafa;
+  transform: scale(1.2);
+}
+.cafejavalogo-hero{
+     height: 80px;
+    width: 80px;
+    padding: 5px;
+}
+
 .bg-color-navbar {
   background-color: #615550;
 }
