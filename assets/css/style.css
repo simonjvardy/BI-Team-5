@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
 
 body{
@@ -5,6 +6,14 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     background-image: linear-gradient(#af9483,#f0ede5 );
 }
+
+/*------hover effects */
+
+.hvr-sweep-to-top::before{
+    background: #af9483;
+}
+
+
 
 
 /*------To stop the overflow 8 */
@@ -23,6 +32,46 @@ body{
         color: #fafafa;
      }
 .navbar-toggler{
-         color: #000;
-        
+         color: #000;       
      }
+
+.navbar-brand:hover{
+    color: #fafafa;
+}
+
+.navbar-nav li:hover {
+    font-size: 20px;
+}
+
+#hiddenMenuItem p{
+    color: #fafafa;
+}
+
+/*--------------------------Footer */
+
+footer{
+         background-color:#615550;
+      }
+
+footer h4{
+    color: #fafafa;
+    letter-spacing: 2px;
+}
+
+.social-links{
+    margin-top: 20px;
+}
+
+.social-links li a i {
+    height: 50px;
+    width: 50px;
+    color: #615550;
+    background-color: #af9483;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-links li a i:hover{
+    background-color: #fafafa;
+}
