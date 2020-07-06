@@ -18,15 +18,15 @@ The **goal** of this project is to build a ***.
 ### User Stories ###
 
 - As a **user**, I want to see a **menu** for the coffee shop.
-- As a **user**, I want to to know **where** the coffee shop is **located on a map**.
+- As a **user**, I want to know **where** the coffee shop is **located on a map**.
 - As a **user**, I want to be able to get **directions** to the coffee shop from where I am located.
 - As a **user**, I want to be able to **book a table online** for a **chosen time** slot to have coffee in the coffee shop.
 - As a **user**, I want to be able to **book a table as well as a coffee online** for a **chosen time** slot.
-- As a **user**, I want to **order my coffe online** to takeaway.
+- As a **user**, I want to **order my coffee online** to takeaway.
 - As a **user**, I can **enter** my contact **details** to **secure my booking**.
-  - The required fields should be a *name*, an *email address* and *coffee order** for the booking confirmation.
+  - The required fields should be a *name*, an *email address* and *coffee order* for the booking confirmation.
 - As a **user**, I can place an order for my coffee in advance of my visit.
-- As a **user**, I can get a **notification to check** my order and **make the changes** if necesary **before** sending it to the coffee shop.
+- As a **user**, I can get a **notification to check** my order and **make the changes** if necessary **before** sending it to the coffee shop.
 - As a **user**, I can **contact** the shop for any order problems using their **social media** channels, **call** them or **email**.
 
 ### Site Owner Goals ###
@@ -106,9 +106,13 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
   
 ### Future Features ###
 
-- 
-- 
-- 
+- User accounts to store personal details securely.
+    - GDPR: Privacy and cookie policy statements.
+    - Sign up for marketing emails and special offers.
+- Include a shopping cart facility.
+    - Use discount voucher codes in the shopping cart.
+- Bookmark the site quickly and easily to encourage repeat visitors.
+
 
 ---
 
