@@ -1,9 +1,15 @@
- var map, infoWindow;
- function initMap(){
+ 
+ let map, infoWindow; //variables for Geolocation 
+
+ function initMap(){ // Google maps function and theme
+
+
+ 
      let coffeeShop = {lat: 53.346925, lng: -6.262882};
+
           let map = new google.maps.Map(document.getElementById("map"),{
               
-              zoom: 6,
+              zoom: 10,
               
               center: coffeeShop,
               
@@ -89,35 +95,45 @@
           ]
              
           });
-         let marker = new google.maps.Marker({position: coffeeShop, map: map});
-        
-     
+          
+    /* Code for info window on coffeeShop */
+    let contentString =
+    `<div id="content"> 
+    <div id="siteNotice"> 
+    </div> 
+    <h1 id="firstHeading" class="firstHeading">CoffeeShop</h1> 
+    <div id="bodyContent"> 
+    <p>
+        This is the most amazing Coffe Shop in the world!
+    </p> 
+    <p>Address: Somewhere cool <br>
+    Phone: +555 149 9867 <br>
+    Email: Somecoffeeplace@gmail.com</p>
 
-     /*let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    </div> 
+    </div>`;
 
-    let locations = [
-         {lat: , lng: -},
-         {lat: , lng: -},
-         {lat: , lng: -}
-     ];
+  let infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
 
-     let markers = locations.map(function(location,i){
-            return new google.maps.Marker({
-                position: location,
-                label: labels[i % labels.length]
-            });
-     });
+  var marker = new google.maps.Marker({
+    position: coffeeShop,
+    map: map,
+    title: "Uluru (Ayers Rock)"
+  });
+  marker.addListener("click", function() {
+    infowindow.open(map, marker);
+  });
+  
 
-     
-     let markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'}); */
-           
-            infoWindow = new google.maps.InfoWindow;
+ /*  var marker = new google.maps.Marker({position: coffeeShop, map: map});
+        infoWindow = new google.maps.InfoWindow;
 
-        // Try HTML5 geolocation.
+        //  Geolocation of user
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
+            let pos = {
               lat: position.coords.latitude,
               lng: position.coords.longitude
             };
@@ -140,6 +156,7 @@
         infoWindow.setContent(browserHasGeolocation ?
                               'Error: The Geolocation service failed.' :
                               'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map);
+        infoWindow.open(map); */
+  
      }
      
