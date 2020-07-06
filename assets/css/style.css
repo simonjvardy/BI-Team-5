@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 /*-----SPECIAL STYLING-----*/
 body {
   font-family: "Josefin Sans", sans-serif;
@@ -19,7 +19,11 @@ p {
 }
 /*--------HEADER----------*/
 /**--------Logo------------*/
-
+#logo h4 {
+  font-family: "Caveat", cursive;
+  color: #f0ede5;
+  font-size: 4rem;
+}
 /**-------NavBar-------------*/
 .bg-color-navbar {
   background-color: #615550;
