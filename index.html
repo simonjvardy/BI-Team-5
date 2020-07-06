@@ -116,11 +116,11 @@
             >
               <a
                 ><i
-                  class="fas fa-map-marker button"
+                  class="fas fa-coffee button"
                   aria-hidden="true"
                   title="book a table"
                 ></i
-                ><span class="sr-only">Map marker</span></a
+                ><span class="sr-only">Cup</span></a
               >
               Book a table
             </button>
@@ -313,13 +313,203 @@
                 </div>
               </div>
             </div>
-            <!-- Booking form: End-->
+            <!-- Booking table form: End-->
           </div>
         </div>
 
         <div class="col-12 col-sm-3 text-center my-3">
           <div class="orderToGo">
-            <button class="btn book-button">Order to go!</button>
+            <button
+              type="button"
+              class="btn book-button"
+              data-toggle="modal"
+              data-target="#orderToGo"
+            >
+              <a
+                ><i
+                  class="fas fa-paper-plane button"
+                  aria-hidden="true"
+                  title="book a table"
+                ></i
+                ><span class="sr-only">Paper Plane</span></a
+              >
+              Order to go
+            </button>
+            <!-- 1. Order to Go form: Modal box-->
+            <div
+              class="modal fade"
+              id="orderToGo"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="orderToGoHeader"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content" id="orderToGoBox">
+                  <!-- 1.1 Order to Go form: Header-->
+                  <div class="modal-header">
+                    <div
+                      class="modal-title col-12 text-center"
+                      id="orderToGoFormHeader"
+                    >
+                      <button
+                        type="button"
+                        class="close p-1"
+                        data-dismiss="modal"
+                        aria-label="close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- 1.2 Order to Go form: Main body -->
+                  <form class="container pt-3" id="orderToGoForm">
+                    <div class="row justify-content-center">
+                      <div class="col-12 col-sm-6">
+                        <!-- 1.1.1 name input-->
+                        <div class="form-group mb-0">
+                          <label for="name2"></label>
+                          <input
+                            type="text"
+                            class="form-control text-center"
+                            id="name2"
+                            placeholder="Name"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.2 email address input----->
+                        <div class="form-group mb-0">
+                          <label for="email2"></label>
+                          <input
+                            type="email2"
+                            class="form-control text-center"
+                            id="email2"
+                            placeholder="Email address"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.3 phone number input----->
+                        <div class="form-group mb-0">
+                          <label for="phone2"></label>
+                          <input
+                            type="phone number"
+                            class="form-control text-center"
+                            id="phone2"
+                            placeholder="Phone Number"
+                            required=""
+                          />
+                        </div>
+                        <!-- 1.1.3 Drinks order input----->
+                        <div class="form-group mb-0">
+                          <div class="px-0">
+                            <label for="drinksOrder"></label>
+                            <select
+                              class="form-control"
+                              id="drinksOrder"
+                              required=""
+                            >
+                              <option selected="">Drinks Order</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 1.1.5 Choose collection time------->
+                        <div class="form-group mb-0">
+                          <div class="px-0">
+                            <label for="collectionTime"></label>
+                            <select
+                              class="form-control"
+                              id="collectionTime"
+                              required=""
+                            >
+                              <option selected="">Collection time</option>
+                              <option>9:00</option>
+                              <option>9:15</option>
+                              <option>9:30</option>
+                              <option>9:45</option>
+                              <option>10:00</option>
+                              <option>10:15</option>
+                              <option>10:30</option>
+                              <option>10:45</option>
+                              <option>11:00</option>
+                              <option>11:15</option>
+                              <option>11:30</option>
+                              <option>11:45</option>
+                              <option>12:00</option>
+                              <option>12:15</option>
+                              <option>12:30</option>
+                              <option>12:45</option>
+                              <option>13:00</option>
+                              <option>13:15</option>
+                              <option>13:30</option>
+                              <option>13:45</option>
+                              <option>14:00</option>
+                              <option>14:15</option>
+                              <option>14:30</option>
+                              <option>14:45</option>
+                              <option>15:00</option>
+                              <option>15:15</option>
+                              <option>15:30</option>
+                              <option>15:45</option>
+                              <option>16:00</option>
+                              <option>16:15</option>
+                              <option>16:30</option>
+                              <option>16:45</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 1.1.6 legal/consent information-->
+                        <div class="from-group mt-3">
+                          <div class="form-legal-info">
+                            <small class="form-text">
+                              We'll never share your personal details with
+                              anyone else.</small
+                            >
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="gridCheck"
+                                required=""
+                              />
+                              <label class="form-check-label" for="gridCheck">
+                                <small class="form-text">
+                                  I consent to CoffeeShop collecting my details
+                                  through this form.</small
+                                >
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 1.3 Order to Go form: Book button -->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="submit"
+                        class="btn book-button"
+                        data-toggle="modal"
+                        data-target="#confirm-booking"
+                      >
+                        <i
+                          class="fas fa-check"
+                          type="button"
+                          aria-hidden="true"
+                          title="tick!"
+                        ></i
+                        ><span class="sr-only"> Check </span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- ORder to go form: End-->
           </div>
         </div>
       </div>

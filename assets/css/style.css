@@ -42,7 +42,8 @@ p {
   margin-left: 0.5rem;
 }
 
-#bookTableBox {
+#bookTableBox,
+#orderToGoBox {
   color: #000;
   background-color: #f0ede5;
   font-family: "Raleway", sans-serif;
@@ -52,7 +53,8 @@ p {
   letter-spacing: 0.05rem;
   font-weight: normal;
 } */
-
+#orderToGoBox .modal-header,
+#orderToGoBox .modal-footer,
 #bookTableBox .modal-header,
 #bookTableBox .modal-footer {
   border: none;
