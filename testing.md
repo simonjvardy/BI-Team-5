@@ -25,6 +25,12 @@ The following validation services and linter were used to check the validity of 
 
 ## Manual Testing
 
+[User Acceptance Testing (UAT) document](testing/) containing:
+- UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
+- Identified risks, 
+- The test cases,
+- The pass/fail record for each test case.
+
 ### Testing undertaken on desktop
 
 ### Testing undertaken on tablet and phone devices
