@@ -17,6 +17,11 @@ p {
   overflow: hidden;
 }
 
+/*----------------Google maps API */
+#map{
+    min-height: 360px;
+}
+
 /*-----NavBar-------------*/
 .bg-color-navbar {
   background-color: #615550;
