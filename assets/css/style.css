@@ -1,12 +1,9 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap");
 
 /*-----SPECIAL STYLING-----*/
 body {
   font-family: "Josefin Sans", sans-serif;
-  background-image: linear-gradient(#af9483, #f0ede5);
+  background-image: linear-gradient(#f0ede5, #af9483);
 }
 p {
   font-family: "Raleway", sans-serif;
@@ -35,10 +32,9 @@ p {
 
 /*------hover effects */
 
-.hvr-sweep-to-top::before{
-    background: #af9483;
+.hvr-sweep-to-top::before {
+  background: #af9483;
 }
-
 
 /*----MAIN BODY STYLING--*/
 /*----Booking section----*/
@@ -74,34 +70,31 @@ p {
   border: none;
 }
 
+/*-----------FOOTER STYLING----------- */
 
-
-/*--------------------------Footer */
-
-footer{
-         background-color:#615550;
-      }
-
-footer h4{
-    color: #fafafa;
-    letter-spacing: 2px;
+footer {
+  background-color: #615550;
 }
 
-.social-links{
-    margin-top: 20px;
+footer h4 {
+  color: #fafafa;
+  letter-spacing: 2px;
+}
+
+.social-links {
+  margin-top: 20px;
 }
 
 .social-links li a i {
-    height: 50px;
-    width: 50px;
-    color: #615550;
-    background-color: #af9483;
-    font-size: 30px;
-    padding: 10px;
-    border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #615550;
+  background-color: #af9483;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
 }
 
-.social-links li a i:hover{
-    background-color: #fafafa;
+.social-links li a i:hover {
+  background-color: #fafafa;
 }
-

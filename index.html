@@ -13,9 +13,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
-
 
     <title>Coffee Shop</title>
   </head>
@@ -44,16 +46,24 @@
       >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item mr-2">
-            <a href="#" class="nav-link nav-text-color hvr-sweep-to-top">Home</a>
+            <a href="#" class="nav-link nav-text-color hvr-sweep-to-top"
+              >Home</a
+            >
           </li>
           <li class="nav-item mr-2">
-            <a href="#menu" class="nav-link nav-text-color hvr-sweep-to-top">Menu</a>
+            <a href="#menu" class="nav-link nav-text-color hvr-sweep-to-top"
+              >Menu</a
+            >
           </li>
           <li class="nav-item mr-2">
-            <a href="#booking" class="nav-link nav-text-color hvr-sweep-to-top">Book</a>
+            <a href="#booking" class="nav-link nav-text-color hvr-sweep-to-top"
+              >Book</a
+            >
           </li>
           <li class="nav-item mr-2">
-            <a href="#contact" class="nav-link nav-text-color hvr-sweep-to-top">Contack Us</a>
+            <a href="#contact" class="nav-link nav-text-color hvr-sweep-to-top"
+              >Contack Us</a
+            >
           </li>
         </ul>
       </div>
@@ -61,7 +71,7 @@
         <p class="navbar-text my-auto mr-2">
           <i>Your local coffee shop - book a table today!</i>
         </p>
-        <a href="/login" class="nav-link badge badge-success">Book here!</a>
+        <a href="#booking" class="book-button nav-link badge">Book here!</a>
       </div>
     </nav>
     <section class="welcome-section container-fluid">
@@ -107,7 +117,6 @@
             your order to go
           </p>
         </div>
-
         <div class="col-12 col-sm-3 text-center mt-3">
           <div class="bookTable">
             <button
@@ -159,35 +168,37 @@
                       <div class="col-12 col-sm-6">
                         <!-- 1.1.1 name input-->
                         <div class="form-group mb-0">
-                          <label for="name"></label>
+                          <label for="name1"></label>
                           <input
                             type="text"
                             class="form-control text-center"
-                            id="name"
+                            id="name1"
                             placeholder="Name"
-                            required=""
+                            required
                           />
                         </div>
                         <!-- 1.1.2 email address input----->
                         <div class="form-group mb-0">
-                          <label for="email"></label>
+                          <label for="email1"></label>
                           <input
-                            type="email"
+                            type="email1"
                             class="form-control text-center"
-                            id="email"
+                            id="email1"
                             placeholder="Email address"
-                            required=""
+                            required
                           />
                         </div>
                         <!-- 1.1.3 phone number input----->
                         <div class="form-group mb-0">
-                          <label for="phone"></label>
+                          <label for="phone1"></label>
                           <input
                             type="phone number"
                             class="form-control text-center"
-                            id="phone"
+                            id="phone1"
                             placeholder="Phone Number"
-                            required=""
+
+                            required
+
                             
                           />
                         </div>
@@ -196,15 +207,17 @@
                           <div class="px-0">
                             <label for="guests"></label>
                             <select
+                              name="guests"
                               class="form-control"
                               id="guests"
-                              required=""
+                              value=""
+                              required
                             >
-                              <option selected="">No. of guests</option>
-                              <option>1</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
+                              <option value="">No. of guests</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
                             </select>
                           </div>
                         </div>
@@ -212,15 +225,21 @@
                         <div class="form-group mb-0">
                           <div class="px-0">
                             <label for="date"></label>
-                            <select class="form-control" id="date" required="">
-                              <option selected="">Date</option>
-                              <option>Monday</option>
-                              <option>Tuesday</option>
-                              <option>Wednesday</option>
-                              <option>Thursday</option>
-                              <option>Friday</option>
-                              <option>Saturday</option>
-                              <option>Sunday</option>
+                            <select
+                              name="date"
+                              class="form-control"
+                              id="date"
+                              required
+                              value=""
+                            >
+                              <option value="">Date</option>
+                              <option value="1">Monday</option>
+                              <option value="2">Tuesday</option>
+                              <option value="3">Wednesday</option>
+                              <option value="4">Thursday</option>
+                              <option value="5">Friday</option>
+                              <option value="6">Saturday</option>
+                              <option value="7">Sunday</option>
                             </select>
                           </div>
                         </div>
@@ -229,47 +248,48 @@
                           <div class="px-0">
                             <label for="tableBookingTime"></label>
                             <select
+                              name="time"
                               class="form-control"
                               id="tableBookingTime"
-                              required=""
+                              required
+                              value=""
                             >
-                              <option selected="">Time</option>
-                              <option>9:00</option>
-                              <option>9:15</option>
-                              <option>9:30</option>
-                              <option>9:45</option>
-                              <option>10:00</option>
-                              <option>10:15</option>
-                              <option>10:30</option>
-                              <option>10:45</option>
-                              <option>11:00</option>
-                              <option>11:15</option>
-                              <option>11:30</option>
-                              <option>11:45</option>
-                              <option>12:00</option>
-                              <option>12:15</option>
-                              <option>12:30</option>
-                              <option>12:45</option>
-                              <option>13:00</option>
-                              <option>13:15</option>
-                              <option>13:30</option>
-                              <option>13:45</option>
-                              <option>14:00</option>
-                              <option>14:15</option>
-                              <option>14:30</option>
-                              <option>14:45</option>
-                              <option>15:00</option>
-                              <option>15:15</option>
-                              <option>15:30</option>
-                              <option>15:45</option>
-                              <option>16:00</option>
-                              <option>16:15</option>
-                              <option>16:30</option>
-                              <option>16:45</option>
+                              <option value="">Time</option>
+                              <option value="2">9:00</option>
+                              <option value="3">9:15</option>
+                              <option value="4">9:30</option>
+                              <option value="5">9:45</option>
+                              <option value="6">10:00</option>
+                              <option value="7">10:15</option>
+                              <option value="8">10:30</option>
+                              <option value="9">10:45</option>
+                              <option value="10">11:00</option>
+                              <option value="11">11:15</option>
+                              <option value="12">11:30</option>
+                              <option value="13">11:45</option>
+                              <option value="14">12:00</option>
+                              <option value="15">12:15</option>
+                              <option value="16">12:30</option>
+                              <option value="17">12:45</option>
+                              <option value="18">13:00</option>
+                              <option value="19">13:15</option>
+                              <option value="20">13:30</option>
+                              <option value="21">13:45</option>
+                              <option value="22">14:00</option>
+                              <option value="23">14:15</option>
+                              <option value="24">14:30</option>
+                              <option value="25">14:45</option>
+                              <option value="26">15:00</option>
+                              <option value="27">15:15</option>
+                              <option value="28">15:30</option>
+                              <option value="29">15:45</option>
+                              <option value="30">16:00</option>
+                              <option value="31">16:15</option>
+                              <option value="32">16:30</option>
+                              <option value="33">16:45</option>
                             </select>
                           </div>
                         </div>
-
                         <!-- 1.1.6 legal/consent information-->
                         <div class="from-group mt-3">
                           <div class="form-legal-info">
@@ -281,10 +301,10 @@
                               <input
                                 class="form-check-input"
                                 type="checkbox"
-                                id="gridCheck"
+                                id="gridCheck1"
                                 required=""
                               />
-                              <label class="form-check-label" for="gridCheck">
+                              <label class="form-check-label" for="gridCheck1">
                                 <small class="form-text">
                                   I consent to CoffeeShop collecting my details
                                   through this form.</small
@@ -300,8 +320,7 @@
                       <button
                         type="submit"
                         class="btn book-button"
-                        data-toggle="modal"
-                        data-target="#confirm-booking"
+                        data-dismiss="#bookTable"
                       >
                         <i
                           class="fas fa-check"
@@ -319,7 +338,6 @@
             <!-- Booking table form: End-->
           </div>
         </div>
-
         <div class="col-12 col-sm-3 text-center my-3">
           <div class="orderToGo">
             <button
@@ -377,7 +395,7 @@
                             class="form-control text-center"
                             id="name2"
                             placeholder="Name"
-                            required=""
+                            required
                           />
                         </div>
                         <!-- 1.1.2 email address input----->
@@ -388,7 +406,7 @@
                             class="form-control text-center"
                             id="email2"
                             placeholder="Email address"
-                            required=""
+                            required
                           />
                         </div>
                         <!-- 1.1.3 phone number input----->
@@ -399,7 +417,7 @@
                             class="form-control text-center"
                             id="phone2"
                             placeholder="Phone Number"
-                            required=""
+                            required
                           />
                         </div>
                         <!-- 1.1.3 Drinks order input----->
@@ -407,65 +425,67 @@
                           <div class="px-0">
                             <label for="drinksOrder"></label>
                             <select
+                              name="drinksOrder"
                               class="form-control"
                               id="drinksOrder"
-                              required=""
+                              required
+                              value=""
                             >
-                              <option selected="">Drinks Order</option>
-                              <option>1</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
+                              <option value="">Drinks Order</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
                             </select>
                           </div>
                         </div>
-
                         <!-- 1.1.5 Choose collection time------->
                         <div class="form-group mb-0">
                           <div class="px-0">
                             <label for="collectionTime"></label>
                             <select
+                              name="time"
                               class="form-control"
                               id="collectionTime"
-                              required=""
+                              required
+                              value=""
                             >
-                              <option selected="">Collection time</option>
-                              <option>9:00</option>
-                              <option>9:15</option>
-                              <option>9:30</option>
-                              <option>9:45</option>
-                              <option>10:00</option>
-                              <option>10:15</option>
-                              <option>10:30</option>
-                              <option>10:45</option>
-                              <option>11:00</option>
-                              <option>11:15</option>
-                              <option>11:30</option>
-                              <option>11:45</option>
-                              <option>12:00</option>
-                              <option>12:15</option>
-                              <option>12:30</option>
-                              <option>12:45</option>
-                              <option>13:00</option>
-                              <option>13:15</option>
-                              <option>13:30</option>
-                              <option>13:45</option>
-                              <option>14:00</option>
-                              <option>14:15</option>
-                              <option>14:30</option>
-                              <option>14:45</option>
-                              <option>15:00</option>
-                              <option>15:15</option>
-                              <option>15:30</option>
-                              <option>15:45</option>
-                              <option>16:00</option>
-                              <option>16:15</option>
-                              <option>16:30</option>
-                              <option>16:45</option>
+                              <option value="">Collection time</option>
+                              <option value="2">9:00</option>
+                              <option value="3">9:15</option>
+                              <option value="4">9:30</option>
+                              <option value="5">9:45</option>
+                              <option value="6">10:00</option>
+                              <option value="7">10:15</option>
+                              <option value="8">10:30</option>
+                              <option value="9">10:45</option>
+                              <option value="10">11:00</option>
+                              <option value="11">11:15</option>
+                              <option value="12">11:30</option>
+                              <option value="13">11:45</option>
+                              <option value="14">12:00</option>
+                              <option value="15">12:15</option>
+                              <option value="16">12:30</option>
+                              <option value="17">12:45</option>
+                              <option value="18">13:00</option>
+                              <option value="19">13:15</option>
+                              <option value="20">13:30</option>
+                              <option value="21">13:45</option>
+                              <option value="22">14:00</option>
+                              <option value="23">14:15</option>
+                              <option value="24">14:30</option>
+                              <option value="25">14:45</option>
+                              <option value="26">15:00</option>
+                              <option value="27">15:15</option>
+                              <option value="28">15:30</option>
+                              <option value="29">15:45</option>
+                              <option value="30">16:00</option>
+                              <option value="31">16:15</option>
+                              <option value="32">16:30</option>
+                              <option value="33">16:45</option>
                             </select>
                           </div>
                         </div>
-
                         <!-- 1.1.6 legal/consent information-->
                         <div class="from-group mt-3">
                           <div class="form-legal-info">
@@ -477,10 +497,10 @@
                               <input
                                 class="form-check-input"
                                 type="checkbox"
-                                id="gridCheck"
+                                id="gridCheck2"
                                 required=""
-                                />
-                              <label class="form-check-label" for="gridCheck">
+                              />
+                              <label class="form-check-label" for="gridCheck2">
                                 <small class="form-text">
                                   I consent to CoffeeShop collecting my details
                                   through this form.</small
@@ -496,8 +516,7 @@
                       <button
                         type="submit"
                         class="btn book-button"
-                        data-toggle="modal"
-                        data-target="#confirm-booking"
+                        data-dismiss="#orderToGo"
                       >
                         <i
                           class="fas fa-check"
@@ -512,7 +531,7 @@
                 </div>
               </div>
             </div>
-            <!-- ORder to go form: End-->
+            <!-- Order to go form: End-->
           </div>
         </div>
       </div>
@@ -528,7 +547,8 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <div id="map"></div>  <!--this is the id for the google maps api-->
+          <div id="map"></div>
+          <!--this is the id for the google maps api-->
         </div>
       </div>
       <div class="row">
@@ -546,9 +566,9 @@
         </div>
       </div>
     </section>
-    <hr />
+
+    <!--Footer Section here-->
     <footer class="container-fluid text-center">
-      <!--Footer Section here-->
       <div class="row">
         <div class="col-sm-12">
           <h5 class="uppercase gensub">Social</h5>
@@ -574,13 +594,14 @@
           </ul>
         </div>
       </div>
-
-
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+
    
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
    <!--Google maps API script-->
