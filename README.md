@@ -125,6 +125,8 @@ Testing information can be found in a separate [testing.md](testing.md) file.
 
 ## Bugs ##
 
+For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report. Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
+
 ---
 
 ## Deployment ##
@@ -184,4 +186,5 @@ We have identified the colour palette on [W3](https://www.w3schools.com/)
 - [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for help with removing the carousel auto-slide in Bootstrap.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
 - [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
+  
 ---
