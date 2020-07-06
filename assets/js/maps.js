@@ -1,8 +1,11 @@
  function initMap(){
+     let coffeeShop = {lat: 53.346925, lng: -6.262882};
           let map = new google.maps.Map(document.getElementById("map"),{
+              
               zoom: 10,
-
-              center:{ lat:53.3242381, lng: -6.3857876},
+              
+              center: coffeeShop,
+              
                styles: [
             {elementType: 'geometry', stylers: [{color: '#615550'}]},
             {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
@@ -83,9 +86,9 @@
               stylers: [{color: '#17263c'}]
             }
           ]
-              
+             
           });
-     
+         let marker = new google.maps.Marker({position: coffeeShop, map: map});
         
      
 
