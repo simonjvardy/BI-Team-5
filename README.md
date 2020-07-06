@@ -18,15 +18,15 @@ The **goal** of this project is to build a ***.
 ### User Stories ###
 
 - As a **user**, I want to see a **menu** for the coffee shop.
-- As a **user**, I want to to know **where** the coffee shop is **located on a map**.
+- As a **user**, I want to know **where** the coffee shop is **located on a map**.
 - As a **user**, I want to be able to get **directions** to the coffee shop from where I am located.
 - As a **user**, I want to be able to **book a table online** for a **chosen time** slot to have coffee in the coffee shop.
 - As a **user**, I want to be able to **book a table as well as a coffee online** for a **chosen time** slot.
-- As a **user**, I want to **order my coffe online** to takeaway.
+- As a **user**, I want to **order my coffee online** to takeaway.
 - As a **user**, I can **enter** my contact **details** to **secure my booking**.
-  - The required fields should be a *name*, an *email address* and *coffee order** for the booking confirmation.
+  - The required fields should be a *name*, an *email address* and *coffee order* for the booking confirmation.
 - As a **user**, I can place an order for my coffee in advance of my visit.
-- As a **user**, I can get a **notification to check** my order and **make the changes** if necesary **before** sending it to the coffee shop.
+- As a **user**, I can get a **notification to check** my order and **make the changes** if necessary **before** sending it to the coffee shop.
 - As a **user**, I can **contact** the shop for any order problems using their **social media** channels, **call** them or **email**.
 
 ### Site Owner Goals ###
@@ -160,10 +160,11 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 
 ### Images ###
 
-You can find the images used for the site [here](/assets/images). We have sourced them through various websites, which are free to use:
+You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
 
-- []()
-- []()
+- cropped-coffee-cup.jpg originally sourced from the [Pikrepo website](https://www.pikrepo.com/frvwp/coffee-art-in-white-cup)
+- cropped-tea-cup.jpg originally sourced from the [Pikrepo website](https://www.pikrepo.com/fryfx/beige-glass-tea-cup-and-saucer-on-top-of-brown-wooden-surface)
+- cropped-iced-drinks.jpg by Jonas Jacobsson originally sourced from the [Unsplash website](https://unsplash.com/photos/ujenujDrMjc)
 
 ### Colour ###
 
@@ -175,4 +176,12 @@ We have identified the colour palette on [W3](https://www.w3schools.com/)
 - MS Paint 3D (DESCRIBE HERE IF USED)
 - A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
 
+### Acknowledgements ###
+
+- [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
+- [Bootstrap Carousel with Controls](https://getbootstrap.com/docs/4.5/components/carousel/) code.
+- [Bootstrap Borderless Table](https://getbootstrap.com/docs/4.5/content/tables/) code.
+- [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for help with removing the carousel auto-slide in Bootstrap.
+- [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
+- [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
 ---
