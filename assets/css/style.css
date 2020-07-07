@@ -27,6 +27,21 @@ p {
   color: #af9483;
   font-size: 2rem;
 }
+.contact-paragraph p{
+    
+  font-family: "Caveat", cursive;
+  color: #f0ede5;
+  font-size: 1.5rem;
+}
+.reach-out p{
+    font-family: "Caveat", cursive;
+  color: #f0ede5;
+  font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
 
 
 .hvr-sweep-to-top::before {
