@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 
 /*-----SPECIAL STYLING-----*/
 body {
@@ -12,6 +13,19 @@ p {
 .container-fluid {
   padding: 15px;
   overflow: hidden;
+}
+/*--------HEADER----------*/
+/**--------Logo------------*/
+
+#logo {
+  font-family: "Caveat", cursive;
+  color: #af9483;
+  font-size: 4rem;
+}
+#logo-nav {
+  font-family: "Caveat", cursive;
+  color: #af9483;
+  font-size: 2rem;
 }
 
 /*----------------Google maps API */
