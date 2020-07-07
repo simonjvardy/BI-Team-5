@@ -1,162 +1,126 @@
- 
- let map, infoWindow; //variables for Geolocation 
+function initMap() { // Google maps function and theme
 
- function initMap(){ // Google maps function and theme
+ let coffeeShop = { lat: 53.346925, lng: -6.262882 };
 
+    let map = new google.maps.Map(document.getElementById("map"), {
 
- 
-     let coffeeShop = {lat: 53.346925, lng: -6.262882};
+        zoom: 12,
 
-          let map = new google.maps.Map(document.getElementById("map"),{
-              
-              zoom: 10,
-              
-              center: coffeeShop,
-              
-               styles: [
-            {elementType: 'geometry', stylers: [{color: '#615550'}]},
-            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+        center: coffeeShop,
+
+        styles: [
+            { elementType: 'geometry', stylers: [{ color: '#615550' }] },
+            { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
+            { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
             {
-              featureType: 'administrative.locality',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
+                featureType: 'administrative.locality',
+                elementType: 'labels.text.fill',
+                stylers: [{ color: '#d59563' }]
             },
             {
-              featureType: 'poi',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
+                featureType: 'poi',
+                elementType: 'labels.text.fill',
+                stylers: [{ color: '#d59563' }]
             },
             {
-              featureType: 'poi.park',
-              elementType: 'geometry',
-              stylers: [{color: '#263c3f'}]
+                featureType: 'poi.park',
+                elementType: 'geometry',
+                stylers: [{ color: '#263c3f' }]
             },
             {
-              featureType: 'poi.park',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#6b9a76'}]
+                featureType: 'poi.park',
+                elementType: 'labels.text.fill',
+                stylers: [{ color: '#6b9a76' }]
             },
             {
-              featureType: 'road',
-              elementType: 'geometry',
-              stylers: [{color: '#38414e'}]
+                featureType: 'road',
+                elementType: 'geometry',
+                stylers: [{ color: '#38414e' }]
             },
             {
-              featureType: 'road',
-              elementType: 'geometry.stroke',
-              stylers: [{color: '#212a37'}]
+                featureType: 'road',
+                elementType: 'geometry.stroke',
+                stylers: [{ color: '#212a37' }]
             },
             {
-              featureType: 'road',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#9ca5b3'}]
+                featureType: 'road',
+                elementType: 'labels.text.fill',
+                stylers: [{ color: '#9ca5b3' }]
             },
             {
-              featureType: 'road.highway',
-              elementType: 'geometry',
-              stylers: [{color: '#746855'}]
+                featureType: 'road.highway',
+                elementType: 'geometry',
+                stylers: [{ color: '#746855' }]
             },
             {
-              featureType: 'road.highway',
-              elementType: 'geometry.stroke',
-              stylers: [{color: '#1f2835'}]
+                featureType: 'road.highway',
+                elementType: 'geometry.stroke',
+                stylers: [{ color: '#1f2835' }]
             },
             {
-              featureType: 'road.highway',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#f3d19c'}]
+                featureType: 'road.highway',
+                elementType: 'labels.text.fill',
+                stylers: [{ color: '#f3d19c' }]
             },
             {
-              featureType: 'transit',
-              elementType: 'geometry',
-              stylers: [{color: '#2f3948'}]
+                featureType: 'transit',
+                elementType: 'geometry',
+                stylers: [{ color: '#2f3948' }]
             },
             {
-              featureType: 'transit.station',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
+                featureType: 'transit.station',
+                elementType: 'labels.text.fill',
+                stylers: [{ color: '#d59563' }]
             },
             {
-              featureType: 'water',
-              elementType: 'geometry',
-              stylers: [{color: '#17263c'}]
+                featureType: 'water',
+                elementType: 'geometry',
+                stylers: [{ color: '#17263c' }]
             },
             {
-              featureType: 'water',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#515c6d'}]
+                featureType: 'water',
+                elementType: 'labels.text.fill',
+                stylers: [{ color: '#515c6d' }]
             },
             {
-              featureType: 'water',
-              elementType: 'labels.text.stroke',
-              stylers: [{color: '#17263c'}]
+                featureType: 'water',
+                elementType: 'labels.text.stroke',
+                stylers: [{ color: '#17263c' }]
             }
-          ]
-             
-          });
-          
-    /* Code for info window on coffeeShop */
+        ]
+
+    });
+
+    /* Code for info window on map on index.html page */
     let contentString =
-    `<div id="content"> 
+        `
+    <div id="content"> 
     <div id="siteNotice"> 
     </div> 
-    <h1 id="firstHeading" class="firstHeading">CoffeeShop</h1> 
+    <h1 id="firstHeading" style="color: #af9483; font-family: Caveat, cursive; font-size: 2rem;"  ><img src="assets/img/cjlogo.png" class="cafejavalogo"  alt="CafeJava Logo"/>CaféJava</h1> 
+    
     <div id="bodyContent"> 
-    <p>
-        This is the most amazing Coffe Shop in the world!
+    <p style="color: #615550; font-family: Caveat, cursive; font-size: 1rem;">
+       ⋆⋆⋆⋆⋆ <br> "This is the most amazing Coffee Shop in the world!" <br>  - An Taoiseach ;)
     </p> 
-    <p>Address: Somewhere cool <br>
+    <p style="color: #615550; font-family: Caveat, cursive; font-size: 1rem;">Address: CafeJava, Bachelors Walk, Temple Bar, <br> Dublin, Ireland <br>
     Phone: +555 149 9867 <br>
-    Email: Somecoffeeplace@gmail.com</p>
+    Email: CafeJava@gmail.com</p>
 
     </div> 
     </div>`;
+    
+    let infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
 
-  let infowindow = new google.maps.InfoWindow({
-    content: contentString
-  });
+    var marker = new google.maps.Marker({
+        position: coffeeShop,
+        map: map,
+        title: "CaféJava"
+    });
+    marker.addListener("mouseover", function () {
+        infowindow.open(map, marker);
+    });
 
-  var marker = new google.maps.Marker({
-    position: coffeeShop,
-    map: map,
-    title: "Uluru (Ayers Rock)"
-  });
-  marker.addListener("click", function() {
-    infowindow.open(map, marker);
-  });
-  
-
- /*  var marker = new google.maps.Marker({position: coffeeShop, map: map});
-        infoWindow = new google.maps.InfoWindow;
-
-        //  Geolocation of user
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            let pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(map);
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map.getCenter());
-        }
-      }
-
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map); */
-  
-     }
-     
+}
