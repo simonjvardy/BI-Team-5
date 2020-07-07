@@ -62,6 +62,12 @@ p {
   color: #000;
 }
 
+.navbar-nav .nav-link {
+    margin-left: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    }
+
 .navbar-brand:hover {
   color: #fafafa;
 }
