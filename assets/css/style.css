@@ -125,10 +125,26 @@ p {
 }
 
 .table {
-  width: 100%;
-  margin-bottom: 4rem;
-  color: #212529;
+
+    width: 100%;
+    margin-bottom: 4rem;
+    color: #212529;
+} 
+
+/*----Menu price list font awesome icon small, medium & large styling--*/
+th>i.sm {
+  font-size: 0.8rem;
 }
+
+th>i.md {
+  font-size: 1rem;
+}
+
+th>i.lg {
+  font-size: 1.2rem;
+}
+
+
 
 /**----Booking section----*/
 .book-button {
