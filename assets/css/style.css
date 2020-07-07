@@ -80,7 +80,8 @@ p {
 /*----Welcome section--*/
 
 .welcome-section {
-    background: url(../img/hero-image-2.jpg) center fixed;
+    background: url(../img/hero-image-2.jpg) no-repeat center fixed;
+    background-size: cover;
     height: 100vh;
 }
 
