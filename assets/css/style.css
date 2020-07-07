@@ -76,11 +76,27 @@ p {
   transform: scale(1.2);
 }
 /*----MAIN BODY STYLING--*/
-/**----Menu section--*/
+
+/*----Welcome section--*/
+
+.welcome-section {
+    background: url(../img/hero-image-2.jpg) center fixed;
+    height: 100vh;
+}
+
+.welcome-message {
+    color: #f0ede5;
+    margin-top: 15vh;
+}
+
+/*----Menu section--*/
+
+
 .jr {
   font-family: "Caveat", cursive;
   font-size: 4rem;
 }
+
 .carousel-control-next-icon {
   position: absolute;
   top: 2vh;
