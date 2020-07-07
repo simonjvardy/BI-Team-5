@@ -1,4 +1,6 @@
-Project description goes here **place holder**
+![Logo](/wireframes/logo-image.jpg)
+
+***Cafe Java** is a local coffee shop which is unable to operate smoothly due to the Global Pandemic (Covid). The cofee shop was only able to accept walk in customers, which under current safety regulations are seen as not safe and more importantly it has seen an increase in revenu loses. As a team, we have build a website to enable **Cafe Java** customers to make their orders online in advance of their visit to the shop with the aim to save the business from collapsing.*
 
 ## Contents ##
 
