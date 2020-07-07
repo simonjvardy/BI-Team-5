@@ -96,7 +96,10 @@ We achieve this by:
 
 #### Fonts ####
 
-We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text. We have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo alone.
+
+
+
+We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.
 
 #### Colours ####
 
@@ -158,25 +161,29 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 ### Future Features ###
 
 - User accounts to store personal details securely.
-  - GDPR: Privacy and cookie policy statements.
-  - Sign up for marketing emails and special offers.
-- Include a shopping cart facility:
-  - Use discount voucher codes in the shopping cart.
+
+    - GDPR: Privacy and cookie policy statements.
+    - Sign up for marketing emails and special offers.
+- Include a shopping cart facility.
+     - Use discount voucher codes in the shopping cart.
+
 - Bookmark the site quickly and easily to encourage repeat visitors.
 
 ---
 
 ## Testing ##
 
-Testing information can be found in a separate [testing.md](testing.md) file.
 
----
+
+
+- Testing information can be found in a separate [testing.md](testing.md) file.
 
 ## Bugs ##
 
-For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report. s we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
+For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report. 
+Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
 
----
+
 
 ## Deployment ##
 
