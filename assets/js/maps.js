@@ -98,20 +98,23 @@
           
     /* Code for info window on coffeeShop */
     let contentString =
-    `<div id="content"> 
+    `
+    <div id="content"> 
     <div id="siteNotice"> 
     </div> 
-    <h1 id="firstHeading" class="firstHeading">CoffeeShop</h1> 
+    <h1 id="firstHeading" style="color: #af9483; font-family: Caveat, cursive; font-size: 2rem;"  ><img src="assets/img/cjlogo.png" class="cafejavalogo"  alt="CafeJava Logo"/>CaféJava</h1> 
+    
     <div id="bodyContent"> 
-    <p>
-        This is the most amazing Coffe Shop in the world!
+    <p style="color: #615550; font-family: Caveat, cursive; font-size: 1rem;">
+       ⋆⋆⋆⋆⋆ <br> "This is the most amazing Coffee Shop in the world!" <br>  - An Taoiseach ;)
     </p> 
-    <p>Address: Somewhere cool <br>
+    <p style="color: #615550; font-family: Caveat, cursive; font-size: 1rem;">Address: CafeJava, Bachelors Walk, Temple Bar, <br> Dublin, Ireland <br>
     Phone: +555 149 9867 <br>
-    Email: Somecoffeeplace@gmail.com</p>
+    Email: CafeJava@gmail.com</p>
 
     </div> 
     </div>`;
+    
 
   let infowindow = new google.maps.InfoWindow({
     content: contentString
@@ -120,7 +123,7 @@
   var marker = new google.maps.Marker({
     position: coffeeShop,
     map: map,
-    title: "Uluru (Ayers Rock)"
+    title: "CaféJava"
   });
   marker.addListener("click", function() {
     infowindow.open(map, marker);
