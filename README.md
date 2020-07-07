@@ -2,8 +2,36 @@
 
 ***Cafe Java** is a local coffee shop which is unable to operate smoothly due to the Global Pandemic (Covid). The cofee shop was only able to accept walk in customers, which under current safety regulations are seen as not safe and more importantly it has seen an increase in revenu loses. As a team, we have build a website to enable **Cafe Java** customers to make their orders online in advance of their visit to the shop with the aim to save the business from collapsing.*
 
-## Contents ##
+### Contents ###
 
+- [UX (User Experience)](#ux-user-experience)
+  - [Project Goals](#project-goals)
+  - [User Goals](#user-goals)
+  - [User Stories](#user-stories)
+  - [Site Owner Goals](#site-owner-goals)
+  - [User Requirements and Expectations](#user-requirements-and-expectations)
+  - [Design Choices](#design-choices)
+    - [Fonts](#fonts)
+    - [Colours](#colours)
+    - [Wireframes](#wireframes)
+- [Technologies](#technologies)
+  - [Languages](#languages)
+  - [Libraries](#libraries)
+  - [Tools](#tools)
+- [Features](#features)
+  - [Features Implemented](#features-implemented)
+  - [Future Features](#future-features)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+  - [Running BI-Team-5 Locally](#running-bi-team-5-locally)
+- [Credits](#credits)
+  - [Images](#images)
+  - [Colour](#colour)
+  - [Image editing](#image-editing)
+  - [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 ## UX (User Experience) ##
 
 ### Project Goals ###
@@ -46,8 +74,6 @@ We achieve this by:
 - As a **site owner**, I want my users to be able to connect with the owner via social media channels.
 
 ### User Requirements and Expectations ###
-
-#### The site should have ###
 
 - **Header**, **Main body** devided into section and **Footer**
 - In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
