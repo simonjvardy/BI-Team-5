@@ -19,7 +19,7 @@ p {
 
 #logo {
   font-family: "Caveat", cursive;
-  color: #af9483;
+  color: #f0ede5;
   font-size: 4rem;
 }
 #logo-nav {
@@ -66,15 +66,15 @@ p {
   color: #fafafa;
 }
 
-
+.book-button-nav {
+  background-color: #AE9E97;
   color: #fafafa;
   transition: all 0.3s;
 }
 .book-button-nav:hover {
-  background-color: rgba(174, 158, 151, 0.63);
+  background-color: rgba(174, 158, 151, 0.63);  
   color: #fafafa;
-  transform: scale(1.2);
-}
+  transform: scale(1.2);}
 /*----MAIN BODY STYLING--*/
 
 /*----Welcome section--*/
