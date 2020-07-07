@@ -119,7 +119,7 @@ function initMap() { // Google maps function and theme
         map: map,
         title: "CaféJava"
     });
-    marker.addListener("mouseover", function () {
+    marker.addListener("click", function () {
         infowindow.open(map, marker);
     });
 
