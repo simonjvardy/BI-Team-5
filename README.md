@@ -8,7 +8,17 @@
 
 ### Project Goals ###
 
-The **goal** of this project is to build a ***.
+The **goal** of this project is to build a website which allows a local coffee shop to better manage their business, minimise revenue loses and comply with social distancing requirements due to the Global Covid-19 pandemic.
+
+The features on the website will:
+
+- Give customers more ways to interact with the shop (online bookings, social media, phone,  email)
+- Enable the business to better manager the flow of customers through their premises and ensure safe conditions for all.
+
+We achieve this by:
+
+- Providing an option to the customers to make their **to-go** orders online
+- Prividing an option to the customers to **book a table** to prevent instances where the cafe it at full capacity and social distancing is not maintained.
 
 ### User Goals ###
 
