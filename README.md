@@ -1,17 +1,56 @@
-Project description goes here **place holder**
+![Logo](/wireframes/logo-image.jpg)
 
-## Contents ##
+***Cafe Java** is a local coffee shop which is unable to operate smoothly due to the Global Pandemic (Covid). The cofee shop was only able to accept walk in customers, which under current safety regulations are seen as not safe and more importantly it has seen an increase in revenu loses. As a team, we have build a website to enable **Cafe Java** customers to make their orders online in advance of their visit to the shop with the aim to save the business from collapsing.*
 
+### Contents ###
+
+- [UX (User Experience)](#ux-user-experience)
+  - [Project Goals](#project-goals)
+  - [User Goals](#user-goals)
+  - [User Stories](#user-stories)
+  - [Site Owner Goals](#site-owner-goals)
+  - [User Requirements and Expectations](#user-requirements-and-expectations)
+  - [Design Choices](#design-choices)
+    - [Fonts](#fonts)
+    - [Colours](#colours)
+    - [Wireframes](#wireframes)
+- [Technologies](#technologies)
+  - [Languages](#languages)
+  - [Libraries](#libraries)
+  - [Tools](#tools)
+- [Features](#features)
+  - [Features Implemented](#features-implemented)
+  - [Future Features](#future-features)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+  - [Running BI-Team-5 Locally](#running-bi-team-5-locally)
+- [Credits](#credits)
+  - [Images](#images)
+  - [Colour](#colour)
+  - [Image editing](#image-editing)
+  - [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 ## UX (User Experience) ##
 
 ### Project Goals ###
 
-The **goal** of this project is to build a ***.
+The **goal** of this project is to build a website which allows a local coffee shop to better manage their business, minimise revenue loses and comply with social distancing requirements due to the Global Covid-19 pandemic.
+
+The features on the website will:
+
+- Give customers more ways to interact with the shop (online bookings, social media, phone,  email)
+- Enable the business to better manager the flow of customers through their premises and ensure safe conditions for all.
+
+We achieve this by:
+
+- Providing an option to the customers to make their **to-go** orders online
+- Prividing an option to the customers to **book a table** to prevent instances where the cafe it at full capacity and social distancing is not maintained.
 
 ### User Goals ###
 
 - **Book** a table in the coffee shop for a specific time.
-- **Order** a coffee **online** when booking a table.
 - **Order** a coffee **online** for collection.
 - **Link** to the coffee shop social media sites.
 
@@ -19,38 +58,49 @@ The **goal** of this project is to build a ***.
 
 - As a **user**, I want to see a **menu** for the coffee shop.
 - As a **user**, I want to know **where** the coffee shop is **located on a map**.
-- As a **user**, I want to be able to get **directions** to the coffee shop from where I am located.
+- As a **user**, I want to be able to get **directions** to the coffee shop from where I am located (NEED TO LOOK AT THAT).
 - As a **user**, I want to be able to **book a table online** for a **chosen time** slot to have coffee in the coffee shop.
-- As a **user**, I want to be able to **book a table as well as a coffee online** for a **chosen time** slot.
 - As a **user**, I want to **order my coffee online** to takeaway.
 - As a **user**, I can **enter** my contact **details** to **secure my booking**.
-  - The required fields should be a *name*, an *email address* and *coffee order* for the booking confirmation.
+  
+****Please note, all of the sections in both booking forms are mandatory*
+
 - As a **user**, I can place an order for my coffee in advance of my visit.
 - As a **user**, I can get a **notification to check** my order and **make the changes** if necessary **before** sending it to the coffee shop.
 - As a **user**, I can **contact** the shop for any order problems using their **social media** channels, **call** them or **email**.
 
 ### Site Owner Goals ###
 
-- As a **site owner**, I want to *** .
-- As a **site owner**, I want to *** .
-- As a **site owner**, I also want to *** .
+- As a **site owner**, I want to create an interactive website allowing the user to look at the menu, book a table at the coffee shop or order a coffee to go.
+- As a **site owner**, I want the user to be able to see a location of the coffee shop on the google maps.
+- As a **site owner**, I want my users to be able to connect with the owner via social media channels.
 
 ### User Requirements and Expectations ###
 
-#### The site should have ###
+- **Header**, **Main body** devided into section and **Footer**
+- In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
+  - **Home section** (top of the site)
+  - **Menu section**
+  - **Booking section**
+  - **Contact us** section
+- On the right side of the **Header** you should see additional **Book here!** button that should take you straight to the booking section.
 
-- 
-- 
-- 
-- 
-- 
-- 
+- In the **Main body** we should see:
+  - **Welcome** section with a welcome message
+  - **Menu** displaying a carousel with drinks order choices
+  - **Booking forms** (both drink in/take away)
+  - **Contact us** section displaying google maps with the coffee shop location
+- In the **Footer** You should see self-explanatory icons allowing the user to connect them with the shop's social media channels.
   
 ### Design Choices ###
 
 #### Fonts ####
 
+
+
+
 We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.
+
 #### Colours ####
 
 We have chosen the colour that say *"coffee now please!"*, applealing to the eye and also compliments the design of the project.
@@ -81,6 +131,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [jQuery](https://jquery.com/)
 - [Popper](https://popper.js.org/)
 - [Bootstrap](https://getbootstrap.com/)
+- [Hover CSS](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css)
   
 ### Tools ###
 
@@ -91,6 +142,8 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [Google fonts](https://fonts.google.com/)
 - [Color editor](https://coolors.co/)
 - [Image editor](https://www.birme.net/)
+- [Favicons](https://favicon.io/)
+- [Google maps API](https://cloud.google.com/maps-platform/)
 
 ---
 
@@ -108,16 +161,20 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 ### Future Features ###
 
 - User accounts to store personal details securely.
+
     - GDPR: Privacy and cookie policy statements.
     - Sign up for marketing emails and special offers.
 - Include a shopping cart facility.
      - Use discount voucher codes in the shopping cart.
-- Bookmark the site quickly and easily to encourage repeat visitors.
 
+- Bookmark the site quickly and easily to encourage repeat visitors.
 
 ---
 
 ## Testing ##
+
+
+
 
 - Testing information can be found in a separate [testing.md](testing.md) file.
 
@@ -125,6 +182,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report. 
 Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
+
 
 
 ## Deployment ##
@@ -158,13 +216,14 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 ---
 
 ## Credits ##
- 
+
 ### Images ###
 
 You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
 
 - [Pikrepo](https://www.pikrepo.com/)
 - [Unsplash](https://unsplash.com/)
+
 ### Colour ###
 
 We have identified the colour palette on [W3](https://www.w3schools.com/)
@@ -172,7 +231,6 @@ We have identified the colour palette on [W3](https://www.w3schools.com/)
 ### Image editing ###
 
 - We have used snippet tool for capturing screengrabs which we have saved as images.
-- MS Paint 3D (DESCRIBE HERE IF USED)
 - A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
 
 ### Acknowledgements ###
@@ -183,4 +241,5 @@ We have identified the colour palette on [W3](https://www.w3schools.com/)
 - [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for help with removing the carousel auto-slide in Bootstrap.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
 - [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
+  
 ---
