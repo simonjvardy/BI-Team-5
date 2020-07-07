@@ -94,6 +94,14 @@ p {
     margin-top: 15vh;
 }
 
+.welcome-quote p{
+    font-family: "Caveat", cursive;
+  color: #f0ede5;
+  font-size: 1.7rem;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 /*----Menu section--*/
 
 
