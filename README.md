@@ -50,6 +50,7 @@ The **goal** of this project is to build a ***.
 
 #### Fonts ####
 
+We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.
 #### Colours ####
 
 We have chosen the colour that say *"coffee now please!"*, applealing to the eye and also compliments the design of the project.
@@ -110,7 +111,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
     - GDPR: Privacy and cookie policy statements.
     - Sign up for marketing emails and special offers.
 - Include a shopping cart facility.
-    - Use discount voucher codes in the shopping cart.
+     - Use discount voucher codes in the shopping cart.
 - Bookmark the site quickly and easily to encourage repeat visitors.
 
 
@@ -118,11 +119,13 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 ## Testing ##
 
----
+- Testing information can be found in a separate [testing.md](testing.md) file.
 
 ## Bugs ##
 
----
+For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report. 
+Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
+
 
 ## Deployment ##
 
@@ -155,17 +158,13 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 ---
 
 ## Credits ##
-
-### Audio (IF USED) ### 
-
+ 
 ### Images ###
 
 You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
 
-- cropped-coffee-cup.jpg originally sourced from the [Pikrepo website](https://www.pikrepo.com/frvwp/coffee-art-in-white-cup)
-- cropped-tea-cup.jpg originally sourced from the [Pikrepo website](https://www.pikrepo.com/fryfx/beige-glass-tea-cup-and-saucer-on-top-of-brown-wooden-surface)
-- cropped-iced-drinks.jpg by Jonas Jacobsson originally sourced from the [Unsplash website](https://unsplash.com/photos/ujenujDrMjc)
-
+- [Pikrepo](https://www.pikrepo.com/)
+- [Unsplash](https://unsplash.com/)
 ### Colour ###
 
 We have identified the colour palette on [W3](https://www.w3schools.com/)
