@@ -11,7 +11,6 @@ The **goal** of this project is to build a ***.
 ### User Goals ###
 
 - **Book** a table in the coffee shop for a specific time.
-- **Order** a coffee **online** when booking a table.
 - **Order** a coffee **online** for collection.
 - **Link** to the coffee shop social media sites.
 
@@ -19,9 +18,8 @@ The **goal** of this project is to build a ***.
 
 - As a **user**, I want to see a **menu** for the coffee shop.
 - As a **user**, I want to know **where** the coffee shop is **located on a map**.
-- As a **user**, I want to be able to get **directions** to the coffee shop from where I am located.
+- As a **user**, I want to be able to get **directions** to the coffee shop from where I am located (NEED TO LOOK AT THAT).
 - As a **user**, I want to be able to **book a table online** for a **chosen time** slot to have coffee in the coffee shop.
-- As a **user**, I want to be able to **book a table as well as a coffee online** for a **chosen time** slot.
 - As a **user**, I want to **order my coffee online** to takeaway.
 - As a **user**, I can **enter** my contact **details** to **secure my booking**.
   - The required fields should be a *name*, an *email address* and *coffee order* for the booking confirmation.
@@ -31,9 +29,9 @@ The **goal** of this project is to build a ***.
 
 ### Site Owner Goals ###
 
-- As a **site owner**, I want to *** .
-- As a **site owner**, I want to *** .
-- As a **site owner**, I also want to *** .
+- As a **site owner**, I want to create an interactive website allowing the user to look at the menu, book a table at the coffee shop or order a coffee to go.
+- As a **site owner**, I want the user to be able to see a location of the coffee shop on the google maps.
+- As a **site owner**, I want my users to be able to connect with the owner via social media channels.
 
 ### User Requirements and Expectations ###
 
@@ -82,6 +80,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [jQuery](https://jquery.com/)
 - [Popper](https://popper.js.org/)
 - [Bootstrap](https://getbootstrap.com/)
+- [Hover CSS](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css)
   
 ### Tools ###
 
@@ -92,6 +91,8 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [Google fonts](https://fonts.google.com/)
 - [Color editor](https://coolors.co/)
 - [Image editor](https://www.birme.net/)
+- [Favicons](https://favicon.io/)
+- [Google maps API](https://cloud.google.com/maps-platform/)
 
 ---
 
@@ -111,7 +112,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - User accounts to store personal details securely.
   - GDPR: Privacy and cookie policy statements.
   - Sign up for marketing emails and special offers.
-- Include a shopping cart facility.
+- Include a shopping cart facility:
   - Use discount voucher codes in the shopping cart.
 - Bookmark the site quickly and easily to encourage repeat visitors.
 
@@ -125,7 +126,7 @@ Testing information can be found in a separate [testing.md](testing.md) file.
 
 ## Bugs ##
 
-For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report. Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
+For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report. s we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
 
 ---
 
@@ -175,7 +176,6 @@ We have identified the colour palette on [W3](https://www.w3schools.com/)
 ### Image editing ###
 
 - We have used snippet tool for capturing screengrabs which we have saved as images.
-- MS Paint 3D (DESCRIBE HERE IF USED)
 - A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
 
 ### Acknowledgements ###
