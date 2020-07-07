@@ -17,16 +17,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"
     />
+			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+			<link rel="manifest" href="/site.webmanifest">
+
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Coffee Shop</title>
+    <title>CafeJava</title>
   </head>
   <body>
     <nav
       class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top"
     >
       <!--NavBar Section here-->
-      <a href="" class="navbar-brand nav-text-color">SomeCoffeePlace</a>
+     
+      <a href="index.html" class="navbar-brand nav-text-color" id="logo-nav" ><img src="assets/img/cjlogo.png" class="cafejavalogo" alt="CafeJava Logo">CaféJava</a>
 
       <button
         class="navbar-toggler nav-text-color ml-auto navbar-dark"
@@ -68,10 +74,7 @@
         </ul>
       </div>
       <div class="d-none d-md-block">
-        <p class="navbar-text my-auto mr-2">
-          <i>Your local coffee shop - book a table today!</i>
-        </p>
-        <a href="#booking" class="book-button nav-link badge">Book here!</a>
+        <a href="#booking" class="book-button-nav nav-link badge-pill">Book here!</a>
       </div>
     </nav>
     <section class="welcome-section container-fluid">
@@ -79,7 +82,7 @@
       <div class="row mt-5 text-center">
         <div class="col-12">
           <h1>Welcome to</h1>
-          <h2 class="mt-5">SomeCoffeePlace</h2>
+          <h2 class="mt-5" id="logo"> <img src="assets/img/cjlogo.png" class="cafejavalogo-hero"  alt="CafeJava Logo">CaféJava</h2>
         </div>
       </div>
     </section>
@@ -92,8 +95,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 d-lg-none">
                 <div class="drink-list">
+                    <!-- Carousel on small and medium devices display sizes -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -107,38 +111,38 @@
                                 <img src="assets/img/cropped-coffee-cup.jpg" class="d-block w-100" alt="cup of coffee on a table">
                                 <table class="table table-sm table-borderless">
                                     <thead>
-                                    <tr>
-                                        <th scope="col"></th>
-                                        <th scope="col">Small</th>
-                                        <th scope="col">Medium</th>
-                                        <th scope="col">Large</th>
-                                    </tr>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Small</th>
+                                            <th scope="col">Medium</th>
+                                            <th scope="col">Large</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>Espresso </td>
-                                        <td>€1.49</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Americano</td>
-                                        <td>€1.99</td>
-                                        <td>€2.49</td>
-                                        <td>€2.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Caffe Latte</td>
-                                        <td>€2.20</td>
-                                        <td>€2.49</td>
-                                        <td>€2.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cappuccino</td>
-                                        <td>€2.25</td>
-                                        <td>€2.49</td>
-                                        <td>€2.99</td>
-                                    </tr>
+                                        <tr>
+                                            <td>Espresso </td>
+                                            <td>€1.49</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Americano</td>
+                                            <td>€1.99</td>
+                                            <td>€2.49</td>
+                                            <td>€2.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Caffe Latte</td>
+                                            <td>€2.20</td>
+                                            <td>€2.49</td>
+                                            <td>€2.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cappuccino</td>
+                                            <td>€2.25</td>
+                                            <td>€2.49</td>
+                                            <td>€2.99</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -148,38 +152,38 @@
                                 <img src="assets/img/cropped-iced-drinks.jpg" class="d-block w-100" alt="Iced drinks on a table">
                                 <table class="table table-sm table-borderless">
                                     <thead>
-                                    <tr>
-                                        <th scope="col"></th>
-                                        <th scope="col">Small</th>
-                                        <th scope="col">Medium</th>
-                                        <th scope="col">Large</th>
-                                    </tr>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Small</th>
+                                            <th scope="col">Medium</th>
+                                            <th scope="col">Large</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>Iced Cappuccino</td>
-                                        <td>€2.20</td>
-                                        <td>€2.50</td>
-                                        <td>€3.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Iced Latte</td>
-                                        <td>€2.99</td>
-                                        <td>€3.49</td>
-                                        <td>€3.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Iced Fruit Drink</td>
-                                        <td>€2.49</td>
-                                        <td>€2.99</td>
-                                        <td>€3.49</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Iced Lemonade</td>
-                                        <td>€2.50</td>
-                                        <td>€2.80</td>
-                                        <td>€3.15</td>
-                                    </tr>
+                                        <tr>
+                                            <td>Iced Cappuccino</td>
+                                            <td>€2.20</td>
+                                            <td>€2.50</td>
+                                            <td>€3.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Iced Latte</td>
+                                            <td>€2.99</td>
+                                            <td>€3.49</td>
+                                            <td>€3.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Iced Fruit Drink</td>
+                                            <td>€2.49</td>
+                                            <td>€2.99</td>
+                                            <td>€3.49</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Iced Lemonade</td>
+                                            <td>€2.50</td>
+                                            <td>€2.80</td>
+                                            <td>€3.15</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -189,38 +193,38 @@
                                 <img src="assets/img/cropped-tea-cup.jpg" class="d-block w-100" alt="cup of tea on a table">
                                 <table class="table table-sm table-borderless">
                                     <thead>
-                                    <tr>
-                                        <th scope="col"></th>
-                                        <th scope="col">Small</th>
-                                        <th scope="col">Medium</th>
-                                        <th scope="col">Large</th>
-                                    </tr>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Small</th>
+                                            <th scope="col">Medium</th>
+                                            <th scope="col">Large</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>Traditional Tea</td>
-                                        <td>€1.75</td>
-                                        <td>€1.99</td>
-                                        <td>€2.20</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Herbal Infusions</td>
-                                        <td>€1.99</td>
-                                        <td>€2.19</td>
-                                        <td>€2.49</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Fruit Infusions</td>
-                                        <td>€1.99</td>
-                                        <td>€2.19</td>
-                                        <td>€2.49</td>
-                                    </tr>
-                                    <tr>
-                                        <td>chai latte</td>
-                                        <td>€2.69</td>
-                                        <td>€2.99</td>
-                                        <td>€3.20</td>
-                                    </tr>
+                                        <tr>
+                                            <td>Traditional Tea</td>
+                                            <td>€1.75</td>
+                                            <td>€1.99</td>
+                                            <td>€2.20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Herbal Infusions</td>
+                                            <td>€1.99</td>
+                                            <td>€2.19</td>
+                                            <td>€2.49</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fruit Infusions</td>
+                                            <td>€1.99</td>
+                                            <td>€2.19</td>
+                                            <td>€2.49</td>
+                                        </tr>
+                                        <tr>
+                                            <td>chai latte</td>
+                                            <td>€2.69</td>
+                                            <td>€2.99</td>
+                                            <td>€3.20</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -236,6 +240,140 @@
                     </div>
                 </div>
             </div>    
+        </div>
+        <!-- Menu display in 3 columns at large display and above only-->
+        <div class="row">
+            <div class="d-none d-lg-block col-lg-4">
+                <div class="menu">
+                    <!-- Coffee Selection-->
+                    <h3 class="title-menu text-capitalize my-2">Coffee</h3>
+                    <img src="assets/img/cropped-coffee-cup.jpg" class="d-block w-100" alt="cup of coffee on a table">
+                    <br>
+                    <table class="table table-sm table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Small</th>
+                                <th scope="col">Medium</th>
+                                <th scope="col">Large</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Espresso </td>
+                                <td>€1.49</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Americano</td>
+                                <td>€1.99</td>
+                                <td>€2.49</td>
+                                <td>€2.99</td>
+                            </tr>
+                            <tr>
+                                <td>Caffe Latte</td>
+                                <td>€2.20</td>
+                                <td>€2.49</td>
+                                <td>€2.99</td>
+                            </tr>
+                            <tr>
+                                <td>Cappuccino</td>
+                                <td>€2.25</td>
+                                <td>€2.49</td>
+                                <td>€2.99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="d-none d-lg-block col-lg-4">
+                <div class="menu">
+                    <!-- Iced Drinks Selection-->
+                    <h3 class="title-menu text-capitalize my-2">Iced Drinks</h3>
+                    <img src="assets/img/cropped-iced-drinks.jpg" class="d-block w-100" alt="Iced drinks on a table">
+                    <br>
+                    <table class="table table-sm table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Small</th>
+                                <th scope="col">Medium</th>
+                                <th scope="col">Large</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Iced Cappuccino</td>
+                                <td>€2.20</td>
+                                <td>€2.50</td>
+                                <td>€3.00</td>
+                            </tr>
+                            <tr>
+                                <td>Iced Latte</td>
+                                <td>€2.99</td>
+                                <td>€3.49</td>
+                                <td>€3.99</td>
+                            </tr>
+                            <tr>
+                                <td>Iced Fruit Drink</td>
+                                <td>€2.49</td>
+                                <td>€2.99</td>
+                                <td>€3.49</td>
+                            </tr>
+                            <tr>
+                                <td>Iced Lemonade</td>
+                                <td>€2.50</td>
+                                <td>€2.80</td>
+                                <td>€3.15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="d-none d-lg-block col-lg-4">
+                <div class="menu">
+                    <!-- Tea Selection-->
+                    <h3 class=" title-menu text-capitalize my-2 ">Tea</h3>
+                    <img src="assets/img/cropped-tea-cup.jpg" class="d-block w-100" alt="cup of tea on a table">
+                    <table class="table table-sm table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Small</th>
+                                <th scope="col">Medium</th>
+                                <th scope="col">Large</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Traditional Tea</td>
+                                <td>€1.75</td>
+                                <td>€1.99</td>
+                                <td>€2.20</td>
+                            </tr>
+                            <tr>
+                                <td>Herbal Infusions</td>
+                                <td>€1.99</td>
+                                <td>€2.19</td>
+                                <td>€2.49</td>
+                            </tr>
+                            <tr>
+                                <td>Fruit Infusions</td>
+                                <td>€1.99</td>
+                                <td>€2.19</td>
+                                <td>€2.49</td>
+                            </tr>
+                            <tr>
+                                <td>chai latte</td>
+                                <td>€2.69</td>
+                                <td>€2.99</td>
+                                <td>€3.20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </section>
     <hr />
@@ -673,7 +811,9 @@
     <section class="contact-section container-fluid" id="contact">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-uppercase text-center">Contact us</h2>
+        
+          <h2 class="text-uppercase text-center">Contact us </h2>
+          
           
         </div>
       </div>
@@ -703,22 +843,21 @@
     <footer class="container-fluid text-center">
       <div class="row">
         <div class="col-sm-12">
-          <h5 class="uppercase gensub">Social</h5>
           <ul class="list-inline social-links">
             <li class="list-inline-item">
-              <a href="" target="_blank">
+              <a href="https://www.facebook.com/" target="_blank">
                 <i class="fab fa-facebook-square" aria-hidden="true"></i>
                 <span class="sr-only">Facebook.</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="" target="_blank">
+              <a href="https://twitter.com/" target="_blank">
                 <i class="fab fa-twitter-square" aria-hidden="true"></i>
                 <span class="sr-only">Twitter.</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="" target="_blank">
+              <a href="https://www.instagram.com/" target="_blank">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">Instagram.</span>
               </a>
