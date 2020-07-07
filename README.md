@@ -96,7 +96,7 @@ We achieve this by:
 
 #### Fonts ####
 
-We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.
+We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text. We have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo alone.
 
 #### Colours ####
 
