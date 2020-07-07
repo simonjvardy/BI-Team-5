@@ -62,7 +62,9 @@ We achieve this by:
 - As a **user**, I want to be able to **book a table online** for a **chosen time** slot to have coffee in the coffee shop.
 - As a **user**, I want to **order my coffee online** to takeaway.
 - As a **user**, I can **enter** my contact **details** to **secure my booking**.
-  - The required fields should be a *name*, an *email address* and *coffee order* for the booking confirmation.
+  
+****Please note, all of the sections in both booking forms are mandatory*
+
 - As a **user**, I can place an order for my coffee in advance of my visit.
 - As a **user**, I can get a **notification to check** my order and **make the changes** if necessary **before** sending it to the coffee shop.
 - As a **user**, I can **contact** the shop for any order problems using their **social media** channels, **call** them or **email**.
