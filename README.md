@@ -49,12 +49,20 @@ We achieve this by:
 
 #### The site should have ###
 
-- 
-- 
-- 
-- 
-- 
-- 
+- **Header**, **Main body** devided into section and **Footer**
+- In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
+  - **Home section** (top of the site)
+  - **Menu section**
+  - **Booking section**
+  - **Contact us** section
+- On the right side of the **Header** you should see additional **Book here!** button that should take you straight to the booking section.
+
+- In the **Main body** we should see:
+  - **Welcome** section with a welcome message
+  - **Menu** displaying a carousel with drinks order choices
+  - **Booking forms** (both drink in/take away)
+  - **Contact us** section displaying google maps with the coffee shop location
+- In the **Footer** You should see self-explanatory icons allowing the user to connect them with the shop's social media channels.
   
 ### Design Choices ###
 
