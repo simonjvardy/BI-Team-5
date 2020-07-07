@@ -82,6 +82,18 @@ p {
 }
 
 /*----MAIN BODY STYLING--*/
+/*----Welcome section--*/
+
+.welcome-section {
+    background: url(../img/hero-image-2.jpg) center fixed;
+    height: 100vh;
+}
+
+.welcome-message {
+    color: #f0ede5;
+    margin-top: 15vh;
+}
+
 /*----Menu section--*/
 .carousel-control-next-icon {
     position: absolute;
