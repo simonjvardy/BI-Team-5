@@ -256,3 +256,11 @@ footer h4 {
 .social-links li a i:hover {
   background-color: #fafafa;
 }
+.confirmation-page{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 50px auto;
+    font-size: 20px;
+  color: #fafafa;
+  background-color: #615550;
+ 
+}
