@@ -5,7 +5,7 @@
 
 [Main README.md file](https://github.com/AlexNexton/BI-Team-5/blob/master/README.md)
 
-[View the live project here.](https://github.com/AlexNexton/BI-Team-5/)
+[View the live project here.](https://alexnexton.github.io/BI-Team-5/)
 
 ---
 
