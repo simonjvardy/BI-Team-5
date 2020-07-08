@@ -262,5 +262,31 @@ footer h4 {
     font-size: 20px;
   color: #fafafa;
   background-color: #615550;
- 
+
+  display: inline-block;
+    font-weight: 400;
+    
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+   
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.book-button2 {
+  background-color: #af9483;
+  color: #fafafa;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+}
+
+.book-button2:hover {
+  color: #fafafa;
+  transform: scale(1.2);
 }
