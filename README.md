@@ -4,7 +4,7 @@
 
 ## Contents ##
 
-- [!Logo](#img-srcwireframeslogo-imagejpg-altlogo)
+- [Logo](#img-srcwireframeslogo-imagejpg-altlogo)
   - [Contents](#contents)
   - [UX (User Experience)](#ux-user-experience)
   - [Project Goals](#project-goals)
