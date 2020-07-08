@@ -1,6 +1,6 @@
 ![Logo](/wireframes/logo-image.jpg)
 
-# BI Team 5 Project Testing Details #
+# Café Java Project Testing Details #
 
 
 [Main README.md file](https://github.com/AlexNexton/BI-Team-5/blob/master/README.md)
@@ -19,7 +19,6 @@
   - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
 - [Bugs discovered](#bugs-discovered)
   - [Unsolved Bugs](#unsolved-bugs)
-- [Further testing](#further-testing)
 
 
 ---
@@ -39,11 +38,11 @@ The following **validation services** and **linter** were used to check the vali
 ---
 
 ### User Acceptance Testing (UAT) ###
-[UAT document](testing/) containing:
+[UAT document](testing/cafe-java-uat-test-plan.pdf) containing:
 - UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
 - Identified risks, 
 - The test cases,
-- The pass/fail record for each test case.
+- The pass / fail record for each test case.
 
 ### Testing undertaken on desktop ###
 
@@ -93,6 +92,3 @@ The issue log is managed on the [GitHub Project Issues section](https://github.c
 [Issue #38](https://github.com/AlexNexton/BI-Team-5/issues/38) 
 - In Safari only, when clicking the social media link icons the hover colour change doesn't work. The icon colour changes on click and remains until another icon is clicked.
 
----
-## Further testing ##
----
