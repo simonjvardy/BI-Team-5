@@ -1,10 +1,12 @@
-![Logo](/wireframes/logo-image.jpg)
+# ![Logo](/wireframes/logo-image.jpg) #
 
 ***Cafe Java** is a local coffee shop which is unable to operate smoothly due to the Global Pandemic (Covid). The cofee shop was only able to accept walk in customers, which under current safety regulations are seen as not safe and more importantly it has seen an increase in revenu loses. As a team, we have build a website to enable **Cafe Java** customers to make their orders online in advance of their visit to the shop with the aim to save the business from collapsing.*
 
-### Contents ###
+## Contents ##
 
-- [UX (User Experience)](#ux-user-experience)
+- [!Logo](#img-srcwireframeslogo-imagejpg-altlogo)
+  - [Contents](#contents)
+  - [UX (User Experience)](#ux-user-experience)
   - [Project Goals](#project-goals)
   - [User Goals](#user-goals)
   - [User Stories](#user-stories)
@@ -14,27 +16,27 @@
     - [Fonts](#fonts)
     - [Colours](#colours)
     - [Wireframes](#wireframes)
-- [Technologies](#technologies)
-  - [Languages](#languages)
-  - [Libraries](#libraries)
-  - [Tools](#tools)
-- [Features](#features)
-  - [Features Implemented](#features-implemented)
-  - [Future Features](#future-features)
-- [Testing](#testing)
-- [Bugs](#bugs)
-- [Deployment](#deployment)
-  - [Running BI-Team-5 Locally](#running-bi-team-5-locally)
-- [Credits](#credits)
-  - [Images](#images)
-  - [Colour](#colour)
-  - [Image editing](#image-editing)
-  - [Acknowledgements](#acknowledgements)
+  - [Technologies](#technologies)
+    - [Languages](#languages)
+    - [Libraries](#libraries)
+    - [Tools](#tools)
+  - [Features](#features)
+    - [Features Implemented](#features-implemented)
+    - [Future Features](#future-features)
+  - [Testing](#testing)
+  - [Bugs](#bugs)
+  - [Deployment](#deployment)
+    - [Running BI-Team-5 Locally](#running-bi-team-5-locally)
+  - [Credits](#credits)
+    - [Images](#images)
+    - [Colour](#colour)
+    - [Image editing](#image-editing)
+    - [Acknowledgements](#acknowledgements)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 ## UX (User Experience) ##
 
-### Project Goals ###
+## Project Goals ##
 
 The **goal** of this project is to build a website which allows a local coffee shop to better manage their business, minimise revenue loses and comply with social distancing requirements due to the Global Covid-19 pandemic.
 
@@ -48,13 +50,13 @@ We achieve this by:
 - Providing an option to the customers to make their **to-go** orders online
 - Prividing an option to the customers to **book a table** to prevent instances where the cafe it at full capacity and social distancing is not maintained.
 
-### User Goals ###
+## User Goals ##
 
 - **Book** a table in the coffee shop for a specific time.
 - **Order** a coffee **online** for collection.
 - **Link** to the coffee shop social media sites.
 
-### User Stories ###
+## User Stories ##
 
 - As a **user**, I want to see a **menu** for the coffee shop.
 - As a **user**, I want to know **where** the coffee shop is **located on a map**.
@@ -69,13 +71,13 @@ We achieve this by:
 - As a **user**, I can get a **notification to check** my order and **make the changes** if necessary **before** sending it to the coffee shop.
 - As a **user**, I can **contact** the shop for any order problems using their **social media** channels, **call** them or **email**.
 
-### Site Owner Goals ###
+## Site Owner Goals ##
 
 - As a **site owner**, I want to create an interactive website allowing the user to look at the menu, book a table at the coffee shop or order a coffee to go.
 - As a **site owner**, I want the user to be able to see a location of the coffee shop on the google maps.
 - As a **site owner**, I want my users to be able to connect with the owner via social media channels.
 
-### User Requirements and Expectations ###
+## User Requirements and Expectations ##
 
 - **Header**, **Main body** devided into section and **Footer**
 - In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
@@ -92,16 +94,13 @@ We achieve this by:
   - **Contact us** section displaying google maps with the coffee shop location
 - In the **Footer** You should see self-explanatory icons allowing the user to connect them with the shop's social media channels.
   
-### Design Choices ###
+## Design Choices ##
 
-#### Fonts ####
+### Fonts ###
 
+We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  We have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
 
-
-
-We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.
-
-#### Colours ####
+### Colours ###
 
 We have chosen the colour that say *"coffee now please!"*, applealing to the eye and also compliments the design of the project.
 ![Color palette](wireframes/Palette-6.png)
@@ -112,7 +111,7 @@ We have chosen the colour that say *"coffee now please!"*, applealing to the eye
 
 These coulours will compliment each other well when used accross the site creating pleasant ambience.
 
-#### Wireframes ####
+### Wireframes ###
 
 We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/). We were focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
 
@@ -161,29 +160,23 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 ### Future Features ###
 
 - User accounts to store personal details securely.
+  - GDPR: Privacy and cookie policy statements.
+  - Sign up for marketing emails and special offers
+- Include a shopping cart facility
+  - Use discount voucher codes in the shopping cart
 
-    - GDPR: Privacy and cookie policy statements.
-    - Sign up for marketing emails and special offers.
-- Include a shopping cart facility.
-     - Use discount voucher codes in the shopping cart.
-
-- Bookmark the site quickly and easily to encourage repeat visitors.
+- Bookmark the site quickly and easily to encourage repeat visitors
 
 ---
 
 ## Testing ##
 
-
-
-
 - Testing information can be found in a separate [testing.md](testing.md) file.
 
 ## Bugs ##
 
-For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report. 
+For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report.
 Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
-
-
 
 ## Deployment ##
 
