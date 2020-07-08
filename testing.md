@@ -1,6 +1,6 @@
 ![Logo](/wireframes/logo-image.jpg)
 
-# BI Team 5 Project Testing Details #
+# Café Java Project Testing Details #
 
 
 [Main README.md file](https://github.com/AlexNexton/BI-Team-5/blob/master/README.md)
@@ -19,7 +19,6 @@
   - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
 - [Bugs discovered](#bugs-discovered)
   - [Unsolved Bugs](#unsolved-bugs)
-- [Further testing](#further-testing)
 
 
 ---
