@@ -72,12 +72,12 @@ p {
 }
 
 .book-button-nav {
-  background-color: #AE9E97;
+  background-color: #Af9483;
   color: #fafafa;
   transition: all 0.3s;
 }
 .book-button-nav:hover {
-  background-color: rgba(174, 158, 151, 0.63);  
+  background-color: #Af9483;
   color: #fafafa;
   transform: scale(1.2);}
 /*----MAIN BODY STYLING--*/
