@@ -33,7 +33,8 @@
     - [Image editing](#image-editing)
     - [Acknowledgements](#acknowledgements)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+[Table of contents generated with markdown-toc](http://ecotrust-canada.github.io/markdown-toc/)
+
 ## UX (User Experience) ##
 
 ## Project Goals ##
@@ -42,12 +43,12 @@ The **goal** of this project is to build a website which allows a local coffee s
 
 The features on the website will:
 
-- Give customers more ways to interact with the shop (online bookings, social media, phone,  email)
+- Give customers more ways to interact with the shop (online bookings, social media, phone, email)
 - Enable the business to better manager the flow of customers through their premises and ensure safe conditions for all.
 
 We achieve this by:
 
-- Providing an option to the customers to make their **to-go** orders online
+- Providing an option to the customers to make their **to-go** orders online.
 - Prividing an option to the customers to **book a table** to prevent instances where the cafe it at full capacity and social distancing is not maintained.
 
 ## User Goals ##
@@ -60,7 +61,6 @@ We achieve this by:
 
 - As a **user**, I want to see a **menu** for the coffee shop.
 - As a **user**, I want to know **where** the coffee shop is **located on a map**.
-- As a **user**, I want to be able to get **directions** to the coffee shop from where I am located (NEED TO LOOK AT THAT).
 - As a **user**, I want to be able to **book a table online** for a **chosen time** slot to have coffee in the coffee shop.
 - As a **user**, I want to **order my coffee online** to takeaway.
 - As a **user**, I can **enter** my contact **details** to **secure my booking**.
@@ -68,7 +68,7 @@ We achieve this by:
 ****Please note, all of the sections in both booking forms are mandatory*
 
 - As a **user**, I can place an order for my coffee in advance of my visit.
-- As a **user**, I can get a **notification to check** my order and **make the changes** if necessary **before** sending it to the coffee shop.
+- As a **user**, I can get a **notification** my order is placed and a confirmation message reciting the order is displayed on a new webpage.
 - As a **user**, I can **contact** the shop for any order problems using their **social media** channels, **call** them or **email**.
 
 ## Site Owner Goals ##
@@ -79,7 +79,7 @@ We achieve this by:
 
 ## User Requirements and Expectations ##
 
-- **Header**, **Main body** devided into section and **Footer**
+- **Header**, **Main body** devided into section and **Footer**.
 - In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
   - **Home section** (top of the site)
   - **Menu section**
@@ -88,10 +88,10 @@ We achieve this by:
 - On the right side of the **Header** you should see additional **Book here!** button that should take you straight to the booking section.
 
 - In the **Main body** we should see:
-  - **Welcome** section with a welcome message
-  - **Menu** displaying a carousel with drinks order choices
-  - **Booking forms** (both drink in/take away)
-  - **Contact us** section displaying google maps with the coffee shop location
+  - **Welcome** section with a welcome message.
+  - **Menu** displaying a carousel with drinks order choices.
+  - **Booking forms** (both drink in/take away).
+  - **Contact us** section displaying google maps with the coffee shop location.
 - In the **Footer** You should see self-explanatory icons allowing the user to connect them with the shop's social media channels.
   
 ## Design Choices ##
@@ -159,13 +159,13 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
   
 ### Future Features ###
 
-- User accounts to store personal details securely.
+- User accounts to store personal details securely;
   - GDPR: Privacy and cookie policy statements.
-  - Sign up for marketing emails and special offers
-- Include a shopping cart facility
-  - Use discount voucher codes in the shopping cart
-
-- Bookmark the site quickly and easily to encourage repeat visitors
+  - Sign up for marketing emails and special offers.
+- Include a shopping cart facility;
+  - Use discount voucher codes in the shopping cart.
+- Bookmark the site quickly and easily to encourage repeat visitors;
+- The user should be able to get **directions** to the coffee shop from where they are located.
 
 ---
 
@@ -219,7 +219,7 @@ You can find the images used for the site [here](assets/img). We have sourced th
 
 ### Colour ###
 
-We have identified the colour palette on [W3](https://www.w3schools.com/)
+We have identified the colour palette on [W3](https://www.w3schools.com/).
 
 ### Image editing ###
 
@@ -233,6 +233,6 @@ We have identified the colour palette on [W3](https://www.w3schools.com/)
 - [Bootstrap Borderless Table](https://getbootstrap.com/docs/4.5/content/tables/) code.
 - [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for help with removing the carousel auto-slide in Bootstrap.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
-- [usersnap.com blog](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
+- [Blog usersnap.com ](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
   
 ---
