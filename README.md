@@ -1,6 +1,6 @@
 # ![Logo](/wireframes/cafejavaresponsive.png) #
 
-***Cafe Java** is a local coffee shop which is unable to operate smoothly due to the Global Pandemic (Covid). The cofee shop was only able to accept walk in customers, which under current safety regulations are seen as not safe and more importantly it has seen an increase in revenu loses. As a team, we have build a website to enable **Cafe Java** customers to make their orders online in advance of their visit to the shop with the aim to save the business from collapsing.*
+***Café Java** is a local coffee shop which is unable to operate smoothly due to the Global Pandemic (COVID-19). The coffee shop was only able to accept walk in customers, which under current safety regulations are not safe and more importantly it has seen a drop in revenues. As a team, we have built a website to enable **Café Java** customers to make their orders online in advance of their visit to the shop with the aim to save the business from collapsing.*
 
 ## Contents ##
 
@@ -44,12 +44,12 @@ The **goal** of this project is to build a website which allows a local coffee s
 The features on the website will:
 
 - Give customers more ways to interact with the shop (online bookings, social media, phone, email)
-- Enable the business to better manager the flow of customers through their premises and ensure safe conditions for all.
+- Enable the business to better manage the flow of customers through their premises and ensure safe conditions for all.
 
 We achieve this by:
 
 - Providing an option to the customers to make their **to-go** orders online.
-- Prividing an option to the customers to **book a table** to prevent instances where the cafe it at full capacity and social distancing is not maintained.
+- Providing an option to the customers to **book a table** to prevent instances where the cafe it at full capacity and social distancing is not maintained.
 
 ## User Goals ##
 
@@ -84,7 +84,7 @@ We achieve this by:
   - **Home section** (top of the site)
   - **Menu section**
   - **Booking section**
-  - **Contact us** section
+  - **Contact us section**
 - On the right side of the **Header** you should see additional **Book here!** button that should take you straight to the booking section.
 
 - In the **Main body** we should see:
@@ -102,18 +102,18 @@ We have chosen [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jo
 
 ### Colours ###
 
-We have chosen the colour that say *"coffee now please!"*, applealing to the eye and also compliments the design of the project.
-![Color palette](wireframes/Palette-6.png)
+We have chosen the colour that say *"coffee now please!"*, appealing to the eye and also compliments the design of the project.
+![Colour palette](wireframes/Palette-6.png)
 
 - *Grullo* (AF9483) - Light soft brown
-- *Umber* (615550) - Dark bronw
-- *Albaster* (F0EDE5) - Off white
+- *Umber* (615550) - Dark brown
+- *Alabaster* (F0EDE5) - Off white
 
-These coulours will compliment each other well when used accross the site creating pleasant ambience.
+These colours will compliment each other well when used across the site creating pleasant ambience.
 
 ### Wireframes ###
 
-We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/). We were focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+We designed our site mock-ups using [balsamiq wireframes](https://balsamiq.com/). We were focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
 
 ---  
 
@@ -139,7 +139,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery)
 - [Google fonts](https://fonts.google.com/)
-- [Color editor](https://coolors.co/)
+- [Colour editor](https://coolors.co/)
 - [Image editor](https://www.birme.net/)
 - [Favicons](https://favicon.io/)
 - [Google maps API](https://cloud.google.com/maps-platform/)
@@ -175,12 +175,12 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 ## Bugs ##
 
-For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report.
+For every bug we found while in development process, we have logged an [incident](https://github.com/AlexNexton/BI-Team-5/issues) report.
 Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/BI-Team-5/issues?q=is%3Aissue+is%3Aclosed).
 
 ## Deployment ##
 
-The website was developed using both *GitPod* and *Visual Studio Code* and using *Git* pushed to *GitHub*, which hosts the repository. I made the following steps to deploy the site using *GitHub Pages*:
+The website was developed using both *Gitpod* and *Visual Studio Code* and using *Git* pushed to *GitHub*, which hosts the repository. I made the following steps to deploy the site using *GitHub Pages*:
 
 - Opened up **GitHub** in the browser.
 - Signed in with my **username** and **password**.
@@ -224,7 +224,7 @@ We have identified the colour palette on [W3](https://www.w3schools.com/).
 ### Image editing ###
 
 - We have used snippet tool for capturing screengrabs which we have saved as images.
-- A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
+- A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resize the images all at once.
 
 ### Acknowledgements ###
 
